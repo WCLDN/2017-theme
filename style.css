@@ -1,0 +1,796 @@
+/*
+Welcome to Custom CSS!
+
+To learn how this works, see http://wp.me/PEmnE-Bt
+*/
+$brown : #521F2A;
+$beige : #F9F5E9;
+$red : #9E2E47;
+$blue : #95C3C7; 
+$default-background : $beige url('https://2016.london.wordcamp.org/files/2015/11/bg-pattern.jpg') repeat;
+$heading-font: "zebrawood-std-fill",serif;
+$regular-font: "double-pica",serif;
+
+
+body,
+.site-footer {
+	background: $default-background;
+}
+
+body {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: $brown;
+	font-family: $regular-font;
+	font-size: 20px;
+	text-rendering: optimizeLegibility;
+}
+
+.error404 .page-header,
+.error404 .page-wrapper,
+.page-header,
+.archive-header,
+.post-navigation {
+	background: transparent;	
+}
+
+.archive #tertiary {
+	margin-top: 120px;	
+}
+
+.archive-title, .archive-meta {
+	color: $brown;
+	font-family: $regular-font;
+	font-size: 24px;
+	font-style: none;
+	padding-bottom: 30px;
+	background: url(https://2016.london.wordcamp.org/files/2015/12/line02.png) no-repeat center bottom;
+	background-size: auto 26px;
+}
+
+
+.error404 .page-title {
+	text-align: center;	
+	line-height: 0.6;
+	margin: 0 auto;
+	padding: 9;
+	position: static;
+	font-family: $regular-font;
+}
+.error404 .page-title::before{
+	color: $brown;
+	content:'404';
+	font-family: $regular-font;
+	font-size: 200px;
+	line-height: 1.2;
+	overflow: visible;
+	position: static;
+	left: auto;
+	top: auto;
+	display: block;
+}
+.menu-toggle,
+h1, h2, h3, h4, h5, h6,
+.entry-meta,
+.widget .widget-title {
+	font-family: $heading-font;
+}
+
+.navbar,
+.site-footer .sidebar-container {
+		background-color: transparent;
+}
+
+.navbar {
+	border-top: solid 7px $brown;
+	border-bottom: solid 7px $brown;
+	font-family: $heading-font;
+	min-height: 50px;
+	max-width: 100%;
+	width: auto;
+}
+
+.site {
+	background-color: transparent;
+	width: 80%;	
+	border-color: $brown;
+	border-style: solid;
+	border-width: 55px;
+	-moz-border-image: url(https://2016.london.wordcamp.org/files/2015/12/shape02.png) 70 repeat;
+	-webkit-border-image: url(https://2016.london.wordcamp.org/files/2015/12/shape02.png) 70 repeat;
+	-o-border-image: url(https://2016.london.wordcamp.org/files/2015/12/shape02.png) 70 repeat;
+	border-image: url(https://2016.london.wordcamp.org/files/2015/12/shape02.png) 70 fill repeat;
+}
+
+.site-info {
+	border-top: 7px solid $brown;
+	max-width: 100%;
+	padding: 0;
+	text-align: center;
+	
+	a {
+		color: transparent;
+		background: url(https://2016.london.wordcamp.org/files/2015/12/logo-footer-red-02@2x.png) no-repeat center / 460px 66px;
+		display: block;
+		height: 66px;
+	}
+}
+
+.sidebar .entry-header, 
+.sidebar .entry-content, 
+.sidebar .entry-summary, 
+.sidebar .entry-meta {
+	padding-left: 0;
+}
+
+.site-header {
+background-size: 388px auto;
+background-position: 50% 73%;		
+}
+.site-header .home-link {
+	height: 300px;	
+}
+
+.site-header .home-link .site-title {
+	display: block;
+	background: url('https://2016.london.wordcamp.org/files/2015/12/logo-date@2x.png') no-repeat center;
+	background-size: 300px auto;
+	height: 163px;
+	width: 100%;
+	margin: 0 0 0 0;
+	color: transparent;
+}
+
+.site-title{
+	display: none;	
+}
+
+.site-description {
+	display: none;	
+}
+.site-content .entry-header {
+	margin-bottom: 15px;	
+}
+
+.entry-title{
+  background: url('https://2016.london.wordcamp.org/files/2015/11/pointinghand@2x.png') no-repeat 0 9px;
+	color: $brown;
+  background-size: 104px 53px;
+	font-size: 2em;
+	line-height: 1.6;
+}
+
+.sidebar .entry-header .entry-meta {
+	padding: 0px 0px 0px 104px;
+}
+.entry-title,
+.entry-meta {
+	padding-left: 104px;
+	text-align: center;	
+	color: $brown;
+	font-family: 	$heading-font;
+}
+
+.entry-title {
+	line-height: 1.2;
+}
+
+.entry-meta {
+	text-transform: uppercase;
+}
+
+.nav-menu {
+	background: $default-background;
+}
+
+.menu-toggle, 
+.menu-toggle:hover, 
+.menu-toggle:focus, 
+.menu-toggle:active,
+.entry-title a,
+.navigation a,
+.nav-menu li a {
+	color: $brown;
+}
+
+.toggled-on .nav-menu > li a:hover, 
+.toggled-on .nav-menu > ul a:hover,
+.nav-menu .sub-menu, 
+.nav-menu .children {
+	background-color: $brown;
+//	border-color: $brown;
+}
+
+.entry-title a:hover,
+.entry-title a:focus {
+	color: $red;
+}
+
+.nav-menu li:hover > a, 
+.nav-menu li a:hover, 
+.nav-menu li:focus > a, 
+.nav-menu li a:focus {
+	background-color: $brown;
+	color: $beige;
+}
+
+.nav-menu .current_page_item > a, 
+.nav-menu .current_page_ancestor > a, 
+.nav-menu .current-menu-item > a, 
+.nav-menu .current-menu-ancestor > a {
+	color: $red;	
+}
+
+ul.nav-menu ul a, .nav-menu ul ul a {
+	color: $beige;
+}
+
+.nav-menu ul .current-menu-item > a {
+    color: $blue;
+}
+
+ul.nav-menu ul a:hover, 
+.nav-menu ul ul a:hover, 
+ul.nav-menu ul a:focus, 
+.nav-menu ul ul a:focus {
+	background-color: $blue;
+	color: $brown !important;
+}
+
+.paging-navigation {
+	background: transparent;
+	padding: 0 0;
+
+	a{
+		color: $red;
+		.meta-nav{
+			background-color: $red;	
+		}
+		&:hover{
+			color: $blue;
+			.meta-nav{
+				background-color: $blue;	
+			}
+		}
+	}
+}
+
+.sidebar .paging-navigation .nav-links {
+	padding: 0;	
+}
+
+article .entry-content::after,
+div[class^="wcorg-sponsor-level-"]::after
+{
+	display: block;
+	min-height: 26px;
+	padding-bottom: 30px;
+	content: '';
+	width: 100%;
+	background: url(https://2016.london.wordcamp.org/files/2015/12/line02.png) no-repeat center bottom;
+	background-size: auto 26px;
+	padding-right: 0;
+	margin-right: 376px;
+}
+.wcorg-sponsor-level-whitechapel-road::after {
+	display: none;
+	background-image: none;
+}
+
+
+.entry-meta,
+.entry-content,
+.comment-content {
+	-webkit-hyphens: none;
+   -moz-hyphens: none;
+	hyphens: none;
+	word-wrap: normal;
+	
+	a {
+		color: $red;	
+		
+		&::before,
+		&:hover {
+			color: $blue;	
+		}
+	}
+}
+
+.wcorg-speaker-description {
+	img {
+		float: left; 
+		margin-right: 20px;
+	}
+}
+
+
+.widget {
+	background: transparent;
+	border: 4px solid $blue;
+	font-size: 1.05rem;
+ .widget-title {
+	font-style: normal;
+		font-size: 1.2rem;
+	}
+}
+
+#subscribe-email input {
+	color: $red;
+	padding: 5px;
+	font-family: $heading-font;
+}
+
+#subscribe-submit {
+	margin-bottom: 0;	
+}
+
+.button,
+input[type="submit"] {
+	background: $red;
+	border: 0;
+ 	font-family: $heading-font;
+	&:hover {
+		background: $blue;
+	}
+}
+
+.comments-area {
+	background: transparent;
+}
+
+.entry-content {
+ ol {
+		list-style-position: inside; 
+		
+		li > h3{
+  		display:  inline;	
+ 		}
+		
+	}
+
+}
+
+
+/* Screen Reader Only */
+.visually-hidden {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+    padding:0 !important;
+    border:0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+} 
+
+/* Speakers without Gravatar */
+.wcb_speaker-slug-leena-haque .speaker-avatar, #wcorg-speaker-leena-haque .avatar {
+	display:none;
+}
+#wcorg-speaker-leena-haque .size-thumbnail {
+		width: 100px;
+		margin-left: 0;
+}
+
+/* Hide */
+#contact-form-10 {
+		display: none;
+}
+
+
+.entry-content img.alignleft, .entry-content .wp-caption.alignleft {
+ margin-left: 0;	
+}
+
+.sidebar .entry-header, .sidebar .entry-content, .sidebar .entry-summary, .sidebar .entry-meta {
+    padding-right: 0;
+}
+
+.site-main {
+    overflow: hidden;
+	padding: 0 0 20px
+}
+
+.content-area {
+    width: 63%;
+    float: left;
+}
+
+.site-main .sidebar-container {
+    height: auto;
+    float: left;
+    position: relative;
+    width: 37%;
+}
+
+.sidebar .site-footer .widget-area {
+	max-width: none;
+	left: 0;
+}
+
+/* Table Styles */
+table {
+	font-size: 18px;
+	width:100%;
+	&.larger-text{
+		font-size: 100%;
+	}
+}
+table, th, td {
+    border-collapse: collapse;
+}
+th, td {
+    padding: 8px 5px;
+}
+
+table.sponsors {
+		border: 1px solid $brown;
+}
+.table-flourish {
+	background: url('https://2016.london.wordcamp.org/files/2015/12/table-florish1.png') no-repeat center 27px / contain;
+	height: 75px;
+}
+/* for high resolution display */
+@media only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.table-flourish {
+			background: transparent url("https://2016.london.wordcamp.org/files/2015/12/table-florish@2x.png") no-repeat scroll center 27px / contain;
+	}
+}
+
+/* Organisers */
+
+.wcorg-organizer .avatar {
+	float: right;
+	margin-bottom: 1em;
+	margin-left: 1em;
+}
+
+
+/*Sponsors */
+
+.wcorg-sponsors h3 {
+	display: none !important;
+}
+.wcorg-sponsor img {
+		width: 100%;
+		display: block;
+		margin: 0 auto;
+}
+.wcorg-sponsor-level-piccadilly .wcorg-sponsor img {
+		max-width: 450px;
+		
+}
+.wcorg-sponsor-level-regent-street .wcorg-sponsor img {
+		max-width: 380px;
+}
+.wcorg-sponsor-level-old-kent-road .wcorg-sponsor {
+		max-width: 240px;
+		display: inline-block;
+		vertical-align: top;
+		margin-right: 40px;
+}
+.wcorg-sponsor-level-old-kent-road .wcorg-sponsor:nth-of-type(2n) {
+		margin-right: 0;
+}
+.wcorg-sponsor-level-whitechapel-road .wcorg-sponsor {
+		max-width: 150px;
+		display: inline-block;
+		vertical-align: baseline;
+		margin-right: 40px;
+}
+.wcorg-sponsor-level-whitechapel-road .wcorg-sponsor:nth-of-type(3n) {
+		margin-right: 0;
+}
+
+.single-wcb_sponsor .entry-thumbnail {
+		display: none;
+}
+
+a.button,
+span.button {
+	border-radius: 2px;
+		display: inline-block;
+		padding: 11px 24px 10px;
+		color: #fff;
+}
+
+.stand-out {
+	font-family: "zebrawood-std-fill", serif;
+  font-size: 18px;
+}
+
+/** Widgets **/
+
+#text-6 {
+	font-size: 1.2rem;
+	.button {
+		width: 100%;
+	}
+	p:last-of-type{
+		margin-bottom: 0;	
+	}
+}
+
+/* Sponsors Widget */
+.widget.wcb_widget_sponsors {
+		width: 100% !important;
+		text-align: center;
+	
+	.widget-title{
+		text-align: left;
+		font-size: 1.3rem;
+	}
+}
+.wcb_widget_sponsors .sponsor-logo {
+    max-width: 220px;
+		padding: 3px;
+		text-align: center;
+}
+.wcb_widget_sponsors .park-lane .sponsor-logo {
+		display: inline-block; 
+		max-width: 240px;
+		margin-bottom: 15px;
+	&:first-of-type {
+		margin-bottom: 30px;
+	}
+}
+
+.wcb_widget_sponsors .piccadilly .sponsor-logo {
+		display: inline-block; 
+		max-width: 220px;
+}
+.wcb_widget_sponsors .regent-street .sponsor-logo {
+		display: inline-block; 
+		max-width: 160px;
+}
+.wcb_widget_sponsors .old-kent-road .sponsor-logo {
+		display: inline-block; 
+		max-width: 120px; 
+		padding: 10px;
+}
+.wcb_widget_sponsors .whitechapel-road .sponsor-logo {
+		display: inline-block; 
+		max-width: 100px;
+		padding: 5px;
+}
+.widget.wcb_widget_sponsors h3, .widget.wcb_widget_sponsors h4 {
+	color: $brown;
+}
+
+/*  SCHEDULE */
+table.wcpt-schedule tr{
+	border-bottom-color: $brown;
+}
+
+.wcpt-time {
+	font-size: 128%;
+}
+
+.wcpt-session-title {
+	font-size: 120%;
+	font-weight: 600;
+	line-height: 1.4;
+  margin-bottom: 0.5em;
+  display: inline-block;
+	
+	.wcpt-session-type-custom & {
+		margin-bottom: 0;
+	}
+}
+.wcpt-session-speakers{
+	font-size: 110%;
+	display: block;	
+	line-height: 1.4;
+}
+
+/** Single Sessions **/
+.session-speakers, #session-speaker-names { display: none; }
+
+/* Sponsors Table */
+.sponsors thead th {
+		font-family: $heading-font;
+		text-align: center;
+		line-height: 1.25;
+}
+.sponsors tbody th  {
+		font-family: $heading-font;
+		text-align:left;
+		text-transform: uppercase;
+		border-right: 1px solid $brown;
+		border-bottom: 1px solid $brown;
+}
+.sponsors td {
+		color: $brown;
+		font-family: serif;
+		border-top: 1px solid $brown;
+		border-bottom: 1px solid $brown;
+		text-align: center;
+		line-height: 1.25;
+}
+.sponsors .first-title {
+	color: $beige;
+	background-color: $brown;
+}
+
+/* Tickets Table */
+.tix_tickets_table {
+	font-size: 0.9rem;
+}
+.tix_tickets_table .tix-ticket-title {
+	font-size: 0.9rem;
+}
+
+.wcorg-sponsor-description > img{
+	display: none;
+}
+
+.freebirdFormviewerViewFormContentWrapper,
+.freebirdHeaderMast {
+	background: none;		
+}
+
+
+/* Responsive Table */
+@media only screen and (max-width: 1280px)  {
+.sponsors {
+	/* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+	
+	/* Hide table headers (but not display: none;, for accessibility) */
+	th { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	td { 
+		/* Behave  like a "row" */
+		border: none;
+		position: relative;
+		padding-left: 50%; 
+	}
+	td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+	}
+	
+	/*
+	Label the data
+	*/
+
+  td:nth-of-type(1):before { content: "What?"; }
+	td:nth-of-type(2):before { content: "Park Lane"; }
+	td:nth-of-type(3):before { content: "Piccadilly"; }
+	td:nth-of-type(4):before { content: "Regent Street"; }
+	td:nth-of-type(5):before { content: "Old Kent Road"; }
+	td:nth-of-type(6):before { content: "Whitechapel Road"; }	
+}
+	.sponsors td {
+			border-bottom: 0;
+	}
+	.sponsors td:first-of-type {
+			color: #F9F5E9;
+			background: #531E2A;
+			text-align: center;
+			border: 0;
+	}
+	.table-flourish {
+			background: transparent url("https://2016.london.wordcamp.org/files/2015/12/table-florish1.png") no-repeat scroll center 14px;
+			height: 52px;
+	}
+	/* for high resolution display */
+	@media only screen and (min--moz-device-pixel-ratio: 2),
+	only screen and (-o-min-device-pixel-ratio: 2/1),
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+		.table-flourish {
+				background: transparent url("https://2016.london.wordcamp.org/files/2015/12/table-florish@2x.png") no-repeat scroll center 14px;
+		}
+	}
+
+}
+@media screen and (min-width: 641px) and (max-width: 1279px) {
+	.table-flourish {
+			background-size: contain;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.table-flourish {
+			background-size: cover;
+	}
+}
+
+
+/* Media Queries */
+@media (max-width:860px){
+	.site-header .home-link .site-title, 
+	.site-description,
+	.site-info a {
+		background-size:contain;
+	}
+	.site-header .home-link .site-title {
+		background-position: bottom center;
+	}
+	.site-description,
+	.site-info a {
+		background-position: top center;
+	}
+  #tix-attendees .tix-columns-3 li {
+		width: 50%;
+	}
+	.site-main .sidebar-container {
+		clear: both;
+		width: 100%;
+	}
+	.content-area {
+		width: 100%;
+	}
+}
+@media (max-width: 720px) {
+	#tix-attendees .tix-columns-3 li {
+		width: 100%;
+	}
+}
+@media screen and (max-width: 480px) {
+	.entry-title, .entry-meta {
+    padding-left: 0;
+		min-height: 40px;
+	}
+	.entry-title {
+			background: none;
+			padding-left: 0;
+			line-height: 1.2;
+	}
+	#content .entry-header,
+	.sidebar .entry-header .entry-meta {
+    padding: 0px;
+	}
+	.site {
+		border-width: 0;
+	}
+	#content .entry-content {
+		padding: 0;
+	}
+}
+@media screen and (min-width: 360px) and (max-width: 480px) {
+	.site-header {
+		background: none;
+	}
+	.site-header .home-link {
+		margin: 0 0 20px;
+		padding: 0;
+		min-height: auto;
+		height: auto;
+	}
+}
+@media screen and (max-width: 359px) {
+	.site-header .home-link {
+		margin: -40px auto 0;
+		padding: 0;
+	}
+}
+
+.sidebar .post-navigation .nav-links {
+ padding: 0;	
+}
+
+.sidebar .comments-title, .sidebar .comment-list, .sidebar .must-log-in, .sidebar .comment-reply-title, .sidebar .comment-navigation, .sidebar .comment-respond .comment-form {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.comment-respond {
+	background: transparent;	
+}
