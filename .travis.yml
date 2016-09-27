@@ -1,0 +1,22 @@
+sudo: false
+language: node_js
+before_install:
+  -  openssl aes-256-cbc -K $encrypted_94586e9ed892_key -iv $encrypted_94586e9ed892_iv -in .travis/deploy_key.pem.enc -out .travis/deploy_key.pem -d
+before_script:
+  - git checkout $TRAVIS_BRANCH
+  - npm install -g npm
+  - npm install -g grunt-cli
+  - npm install
+  - npm prune
+  - gem install sass
+script: grunt travis
+after_success:
+  - eval "$(ssh-agent -s)"
+  - chmod 600 .travis/deploy_key.pem
+  - ssh-add .travis/deploy_key.pem
+  - git config --global user.email "travis@travis-ci.org"
+  - git config --global user.name "Travis CI"
+  - git remote add deploy git@github.com:WCLDN/2017-theme.git
+  - git add -f build/style.css build/style.css.map
+  - 'git commit --message "[ci skip] Travis build: ${TRAVIS_BUILD_NUMBER}"'
+  - git push deploy

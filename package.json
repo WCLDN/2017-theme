@@ -1,0 +1,25 @@
+{
+  "name": "2017-theme",
+  "version": "1.0.0",
+  "description": "WordPress theme assets for 2017.london.wordcamp.org",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WCLDN/2017-theme.git"
+  },
+  "author": "The WordCamp London Team",
+  "license": "GPLv2+",
+  "bugs": {
+    "url": "https://github.com/WCLDN/2017-theme/issues"
+  },
+  "homepage": "https://2017.london.wordcamp.org",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "matchdep": "^1.0.1"
+  }
+}
