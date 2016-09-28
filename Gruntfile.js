@@ -1,37 +1,51 @@
 'use strict';
 
-module.exports = function(grunt) {
-    require('matchdep').filterDev(['grunt-*', '!grunt-legacy-util']).forEach( grunt.loadNpmTasks );
+module.exports = function (grunt) {
+	require('matchdep').filterDev(['grunt-*', '!grunt-legacy-util']).forEach(grunt.loadNpmTasks);
 
-    grunt.initConfig({
+	grunt.initConfig({
 
-        sass: {
-            build: {
-                options: {
-                    style: 'expanded',
-                    unixNewlines: true,
-                    lineNumbers: true
-                },
-                files: {
-                    'build/style.css': 'src/style.scss'
-                }
-            }
-        },
+		scsslint: {
+			build: {
+				src: [
+					'src/*.scss'
+				],
+				options: {
+					config: '.scss-lint.yml',
+					colorizeOutput: true
+				}
+			}
+		},
 
-        watch: {
-            sass: {
-                files: 'src/**/*.scss',
-                tasks: ['sass:build']
-            }
-        }
-    });
+		sass: {
+			build: {
+				options: {
+					style: 'expanded',
+					unixNewlines: true,
+					lineNumbers: true
+				},
+				files: {
+					'build/style.css': 'src/style.scss'
+				}
+			}
+		},
 
-    grunt.registerTask('default', [
-        'sass:build',
-        'watch'
-    ]);
+		watch: {
+			sass: {
+				files: 'src/**/*.scss',
+				tasks: ['travis']
+			}
+		}
+	});
 
-    grunt.registerTask('travis', [
-        'sass:build'
-    ]);
+	grunt.registerTask('default', [
+		'scsslint',
+		'sass:build',
+		'watch'
+	]);
+
+	grunt.registerTask('travis', [
+		'scsslint',
+		'sass:build'
+	]);
 };
