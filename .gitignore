@@ -1,5 +1,5 @@
 /build
 /node_modules/
-!/build/README.md
 /.sass-cache
 /.idea
+/Gemfile.lock
