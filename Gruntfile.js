@@ -33,7 +33,10 @@ module.exports = function (grunt) {
 		watch: {
 			sass: {
 				files: 'src/**/*.scss',
-				tasks: ['travis']
+				tasks: [
+					'scsslint',
+					'sass:build'
+				]
 			}
 		}
 	});
@@ -45,7 +48,6 @@ module.exports = function (grunt) {
 	]);
 
 	grunt.registerTask('travis', [
-		'scsslint',
 		'sass:build'
 	]);
 };
