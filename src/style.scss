@@ -1,1 +1,7 @@
 @import "variables";
+
+// Text Only visible in emails and WordPress.com reader
+.email-only {
+	speak: none;
+	display: none;
+}
