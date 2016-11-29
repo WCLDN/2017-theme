@@ -12,7 +12,7 @@ before_script:
   - bundle install
   - npm install -g grunt-cli
 script:
-  - sed -i.bak s/http:\/\/wcldn-2017.dev/http:\/\/i0.wp.com\/raw.githubusercontent.com\/WCLDN\/2017-theme\/master/g src/_variables.scss
+  - sed -i s,http://wcldn-2017.dev,https://i0.wp.com/raw.githubusercontent.com/WCLDN/2017-theme/master,g src/_variables.scss
   - grunt travis
   - git checkout $TRAVIS_BRANCH src/_variables.scss
 after_success:
