@@ -1,7 +1,5 @@
 @import "variables";
 
-// Text Only visible in emails and WordPress.com reader
-.email-only {
-	speak: none;
-	display: none;
+body {
+	background: url(#{$assets-url}/images/body-bg-001.jpg) repeat;
 }

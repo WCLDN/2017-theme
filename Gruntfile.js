@@ -30,12 +30,27 @@ module.exports = function (grunt) {
 			}
 		},
 
+		postcss: {
+			options: {
+				map: true,
+				processors: [
+					require('autoprefixer')({
+					  	browsers: ['last 5 versions']
+					})
+				]
+			},
+			dist: {
+				src: 'build/style.css'
+			}
+		},
+
 		watch: {
 			sass: {
 				files: 'src/**/*.scss',
 				tasks: [
 					'scsslint',
-					'sass:build'
+					'sass:build',
+				  	'postcss'
 				]
 			}
 		}
@@ -44,10 +59,12 @@ module.exports = function (grunt) {
 	grunt.registerTask('default', [
 		'scsslint',
 		'sass:build',
+		'postcss',
 		'watch'
 	]);
 
 	grunt.registerTask('travis', [
-		'sass:build'
+		'sass:build',
+		'postcss'
 	]);
 };

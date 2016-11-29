@@ -11,7 +11,10 @@ before_script:
   - git checkout $TRAVIS_BRANCH
   - bundle install
   - npm install -g grunt-cli
-script: grunt travis
+script:
+  - sed -i.bak s/http:\/\/wcldn-2017.dev/http:\/\/i0.wp.com\/raw.githubusercontent.com\/WCLDN\/2017-theme\/master/g src/_variables.scss
+  - grunt travis
+  - git checkout $TRAVIS_BRANCH src/_variables.scss
 after_success:
   - eval "$(ssh-agent -s)"
   - chmod 600 .travis/deploy_key.pem
@@ -24,8 +27,9 @@ after_success:
   - git fetch deploy
   - git checkout -b master deploy/master
   - git checkout $TRAVIS_BRANCH build/style.css
-  - mv build/style.css ${TRAVIS_BRANCH//\//-}.css
-  - git add ${TRAVIS_BRANCH//\//-}.css
+  - git checkout $TRAVIS_BRANCH images
+  - mv build/style.css style.css
+  - git add style.css images
   - git rm --cached build/style.css
   - rm -rf build
   - 'git commit --message "[ci skip] Travis build: ${TRAVIS_BUILD_NUMBER}"'
