@@ -60,12 +60,12 @@ body {
 
 		&::before {
 			left: 0;
-			background-image: url(#{$assets-url}/images/curtain-left-no-shadow.png);
+			background-image: url(#{$assets-url}/images/curtain-left-no-shadow-001.png);
 		}
 
 		&::after {
 			right: 0;
-			background-image: url(#{$assets-url}/images/curtain-right-no-shadow.png);
+			background-image: url(#{$assets-url}/images/curtain-right-no-shadow-001.png);
 		}
 
 		// Now that we are showing the curtain tops, we need to tuck the navigation underneath them
@@ -109,11 +109,11 @@ body {
 		// Change the curtain tops out for those with a shadow now that we have more room
 		@media (min-width: $screen-lg-min) {
 			&::before {
-				background-image: url(#{$assets-url}/images/curtain-left.png);
+				background-image: url(#{$assets-url}/images/curtain-left-001.png);
 			}
 
 			&::after {
-				background-image: url(#{$assets-url}/images/curtain-right.png);
+				background-image: url(#{$assets-url}/images/curtain-right-001.png);
 			}
 		}
 
