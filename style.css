@@ -3,7 +3,115 @@
  */
 /* line 3, ../src/style.scss */
 body {
-  background: url(https://i0.wp.com/raw.githubusercontent.com/WCLDN/2017-theme/master/images/body-bg-001.jpg) repeat;
+  background-color: #dbbb89;
+}
+
+/* line 8, ../src/style.scss */
+.site-header {
+  background-color: #4f483e;
+}
+/* line 12, ../src/style.scss */
+.site-header .home-link {
+  position: relative;
+  background-color: transparent;
+  max-width: none;
+  text-align: center;
+  z-index: 1;
+  padding: 20px;
+  color: #fff;
+}
+/* line 22, ../src/style.scss */
+.site-header .menu-toggle {
+  color: #fff;
+}
+/* line 26, ../src/style.scss */
+.site-header .navbar {
+  position: relative;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #27211f;
+}
+/* line 32, ../src/style.scss */
+.site-header .navbar a {
+  color: #fff;
+  text-transform: uppercase;
+}
+/* line 39, ../src/style.scss */
+.site-header .nav-menu {
+  padding: 0;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  /* line 48, ../src/style.scss */
+  .site-header::before, .site-header::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    display: block;
+    height: 240px;
+    width: 600px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: 2;
+  }
+  /* line 61, ../src/style.scss */
+  .site-header::before {
+    left: 0;
+    background-image: url(https://i0.wp.com/raw.githubusercontent.com/WCLDN/2017-theme/master/images/curtain-left-no-shadow.png);
+  }
+  /* line 66, ../src/style.scss */
+  .site-header::after {
+    right: 0;
+    background-image: url(https://i0.wp.com/raw.githubusercontent.com/WCLDN/2017-theme/master/images/curtain-right-no-shadow.png);
+  }
+  /* line 72, ../src/style.scss */
+  .site-header .navbar {
+    position: relative;
+    margin-top: -20px;
+    padding-top: 25px;
+  }
+  /* line 79, ../src/style.scss */
+  .site-header .main-navigation {
+    max-width: none;
+    padding-left: 160px;
+    padding-right: 160px;
+  }
+  /* line 86, ../src/style.scss */
+  .site-header .home-link {
+    padding: 0 20px;
+  }
+  /* line 90, ../src/style.scss */
+  .site-header .home-link::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 60px;
+    bottom: 0;
+    left: 60px;
+    display: block;
+    background-color: #e7be4c;
+    z-index: -1;
+  }
+}
+@media (min-width: 768px) and (min-width: 1200px) {
+  /* line 111, ../src/style.scss */
+  .site-header::before {
+    background-image: url(https://i0.wp.com/raw.githubusercontent.com/WCLDN/2017-theme/master/images/curtain-left.png);
+  }
+  /* line 115, ../src/style.scss */
+  .site-header::after {
+    background-image: url(https://i0.wp.com/raw.githubusercontent.com/WCLDN/2017-theme/master/images/curtain-right.png);
+  }
+}
+
+/* line 125, ../src/style.scss */
+.site {
+  border: 0;
+}
+
+/* line 130, ../src/style.scss */
+.site-footer {
+  background-color: #dbbb89;
 }
 
 /*# sourceMappingURL=style.css.map */
