@@ -8,10 +8,55 @@ body {
 // Site Header, to include the top of the stage curtains
 .site-header {
 
-	background-color: $brand-primary-light;
+	.site & {
+		background-image: none;
+		background-color: $brand-secondary;
+
+		@media (min-width: $screen-sm-min) {
+			background-color: $brand-primary-light;
+		}
+
+	}
+
+	h1,
+	h2 {
+		text-transform: uppercase;
+	}
 
 	h1 {
-		font-family: $font-secondary;
+		padding: 0;
+		font: 600 normal 1.5rem $font-secondary;
+
+		@media (min-width: $screen-sm-min) {
+			font-size: 2rem;
+		}
+
+		@media (min-width: $screen-md-min) {
+			font-size: 3rem;
+		}
+
+		@media (min-width: $screen-lg-min) {
+			font-size: 3.5rem;
+		}
+
+	}
+
+	h2 {
+		font: 400 normal 1rem $font-secondary;
+		color: $brand-dark;
+
+		// This needs to be done to ensure the date shows on mobile
+		clip: initial;
+		position: relative;
+
+		@media (min-width: $screen-md-min) {
+			font-size: 1.5rem;
+		}
+
+		@media (min-width: $screen-lg-min) {
+			font-size: 1.75rem;
+		}
+
 	}
 
 	.home-link {
@@ -22,6 +67,39 @@ body {
 		z-index: 1;
 		padding: 20px;
 		color: $white;
+
+		&::before {
+			content: "";
+			position: relative;
+			display: inline-block;
+			width: 60px;
+			height: 60px;
+			margin: 0 auto 10px;
+			background-image: url(#{$assets-url}/images/wordcamp-website-logo-001.png);
+			background-repeat: no-repeat;
+			background-size: 100%;
+
+			@media (min-width: $screen-sm-min) {
+				margin-top: 70px;
+				margin-bottom: 0;
+			}
+
+			@media (min-width: $screen-md-min) {
+				margin-top: 60px;
+			}
+
+			@media (min-width: $screen-lg-min) {
+				margin-top: 45px;
+				width: 70px;
+				height: 70px;
+			}
+
+			@media (min-width: $screen-xl-min) {
+				margin-top: 35px;
+			}
+
+		}
+
 	}
 
 	.menu-toggle {
@@ -92,7 +170,7 @@ body {
 
 			padding: 0 20px;
 
-			&::before {
+			&::after {
 				content: "";
 				position: absolute;
 				top: 0;
@@ -103,11 +181,6 @@ body {
 				background-color: $brand-secondary;
 				z-index: -1;
 			}
-
-		}
-
-		// TODO: Show the curtains in the margins of the page
-		@media (min-width: $screen-md-min) {
 
 		}
 
@@ -128,7 +201,68 @@ body {
 
 // Main page container
 .site {
+
 	border: 0;
+
+	// Showing the curtains
+	@media (min-width: $screen-md-min) {
+
+		.site-main {
+
+			&::before,
+			&::after {
+				content: "";
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				display: block;
+				width: 165px;
+				background-size: 100%;
+				background-repeat: repeat-y;
+			}
+
+			&::before {
+				left: 0;
+				background-image: url(#{$assets-url}/images/curtain-drape-left-001.png);
+			}
+
+			&::after {
+				right: 0;
+				background-image: url(#{$assets-url}/images/curtain-drape-right-001.png);
+			}
+
+		}
+
+		.site-footer {
+
+			position: relative;
+
+			&::before,
+			&::after {
+				content: "";
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				display: block;
+				width: 165px;
+				background-size: 100%;
+				background-repeat: repeat-y;
+			}
+
+			&::before {
+				left: 0;
+				background-image: url(#{$assets-url}/images/curtain-bottom-left-001.png);
+			}
+
+			&::after {
+				right: 0;
+				background-image: url(#{$assets-url}/images/curtain-bottom-right-001.png);
+			}
+
+		}
+
+	}
+
 }
 
 // Site footer, to include the seats
