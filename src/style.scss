@@ -1,5 +1,133 @@
 @import "variables";
 
 body {
-	background: url(#{$assets-url}/images/body-bg-001.jpg) repeat;
+	background-color: $brand-background;
 }
+
+// Site Header, to include the top of the stage curtains
+.site-header {
+
+	background-color: $brand-primary-light;
+
+	.home-link {
+		position: relative;
+		background-color: transparent;
+		max-width: none;
+		text-align: center;
+		z-index: 1;
+		padding: 20px;
+		color: $white;
+	}
+
+	.menu-toggle {
+		color: $white;
+	}
+
+	.navbar {
+		position: relative;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		background-color: $brand-dark;
+
+		a {
+			color: $white;
+			text-transform: uppercase;
+		}
+
+	}
+
+	.nav-menu {
+		padding: 0;
+		text-align: center;
+	}
+
+	// The curtain tops are currently only set to display on larger screen sizes.
+	@media (min-width: $screen-sm-min) {
+
+		// Set the left and right curtains
+		&::before,
+		&::after {
+			content: "";
+			position: absolute;
+			top: 0;
+			display: block;
+			height: 240px;
+			width: 600px;
+			background-size: 100%;
+			background-repeat: no-repeat;
+			z-index: 2;
+		}
+
+		&::before {
+			left: 0;
+			background-image: url(#{$assets-url}/images/curtain-left-no-shadow.png);
+		}
+
+		&::after {
+			right: 0;
+			background-image: url(#{$assets-url}/images/curtain-right-no-shadow.png);
+		}
+
+		// Now that we are showing the curtain tops, we need to tuck the navigation underneath them
+		.navbar {
+			position: relative;
+			margin-top: -20px;
+			padding-top: 25px;
+		}
+
+		// And prevent the navigation links from spreading underneath the curtain tops.
+		.main-navigation {
+			max-width: none;
+			padding-left: 160px;
+			padding-right: 160px;
+		}
+
+		// And lastly we need to set a background to show inbetween the curtain tops
+		.home-link {
+
+			padding: 0 20px;
+
+			&::before {
+				content: "";
+				position: absolute;
+				top: 0;
+				right: 60px;
+				bottom: 0;
+				left: 60px;
+				display: block;
+				background-color: $brand-secondary;
+				z-index: -1;
+			}
+
+		}
+
+		// TODO: Show the curtains in the margins of the page
+		@media (min-width: $screen-md-min) {
+
+		}
+
+		// Change the curtain tops out for those with a shadow now that we have more room
+		@media (min-width: $screen-lg-min) {
+			&::before {
+				background-image: url(#{$assets-url}/images/curtain-left.png);
+			}
+
+			&::after {
+				background-image: url(#{$assets-url}/images/curtain-right.png);
+			}
+		}
+
+	}
+
+}
+
+// Main page container
+.site {
+	border: 0;
+}
+
+// Site footer, to include the seats
+.site-footer {
+	background-color: $brand-background;
+}
+
