@@ -2,12 +2,17 @@
 
 body {
 	background-color: $brand-background;
+	font-family: $font-primary;
 }
 
 // Site Header, to include the top of the stage curtains
 .site-header {
 
 	background-color: $brand-primary-light;
+
+	h1 {
+		font-family: $font-secondary;
+	}
 
 	.home-link {
 		position: relative;
