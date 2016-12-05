@@ -114,29 +114,34 @@ body {
     margin-top: 35px;
   }
 }
-/* line 105, ../src/style.scss */
+/* line 106, ../src/style.scss */
+.site-header .skip-link.skip-link:focus {
+  color: #a62023;
+  top: -2px;
+}
+/* line 111, ../src/style.scss */
 .site-header .menu-toggle {
   color: #fff;
 }
-/* line 109, ../src/style.scss */
+/* line 115, ../src/style.scss */
 .site-header .navbar {
   position: relative;
   padding-top: 5px;
   padding-bottom: 5px;
   background-color: #27211f;
 }
-/* line 115, ../src/style.scss */
+/* line 121, ../src/style.scss */
 .site-header .navbar a {
   color: #fff;
   text-transform: uppercase;
 }
-/* line 122, ../src/style.scss */
+/* line 128, ../src/style.scss */
 .site-header .nav-menu {
   padding: 0;
   text-align: center;
 }
 @media (min-width: 768px) {
-  /* line 131, ../src/style.scss */
+  /* line 137, ../src/style.scss */
   .site-header::before, .site-header::after {
     content: "";
     position: absolute;
@@ -148,33 +153,33 @@ body {
     background-repeat: no-repeat;
     z-index: 2;
   }
-  /* line 144, ../src/style.scss */
+  /* line 150, ../src/style.scss */
   .site-header::before {
     left: 0;
     background-image: url(https://i0.wp.com/raw.githubusercontent.com/WCLDN/2017-theme/master/images/curtain-left-no-shadow-001.png);
   }
-  /* line 149, ../src/style.scss */
+  /* line 155, ../src/style.scss */
   .site-header::after {
     right: 0;
     background-image: url(https://i0.wp.com/raw.githubusercontent.com/WCLDN/2017-theme/master/images/curtain-right-no-shadow-001.png);
   }
-  /* line 155, ../src/style.scss */
+  /* line 161, ../src/style.scss */
   .site-header .navbar {
     position: relative;
     margin-top: -20px;
     padding-top: 25px;
   }
-  /* line 162, ../src/style.scss */
+  /* line 168, ../src/style.scss */
   .site-header .main-navigation {
     max-width: none;
     padding-left: 160px;
     padding-right: 160px;
   }
-  /* line 169, ../src/style.scss */
+  /* line 175, ../src/style.scss */
   .site-header .home-link {
     padding: 0 20px;
   }
-  /* line 173, ../src/style.scss */
+  /* line 179, ../src/style.scss */
   .site-header .home-link::after {
     content: "";
     position: absolute;
@@ -188,22 +193,22 @@ body {
   }
 }
 @media (min-width: 768px) and (min-width: 1200px) {
-  /* line 189, ../src/style.scss */
+  /* line 195, ../src/style.scss */
   .site-header::before {
     background-image: url(https://i0.wp.com/raw.githubusercontent.com/WCLDN/2017-theme/master/images/curtain-left-001.png);
   }
-  /* line 193, ../src/style.scss */
+  /* line 199, ../src/style.scss */
   .site-header::after {
     background-image: url(https://i0.wp.com/raw.githubusercontent.com/WCLDN/2017-theme/master/images/curtain-right-001.png);
   }
 }
 
-/* line 203, ../src/style.scss */
+/* line 209, ../src/style.scss */
 .site {
   border: 0;
 }
 @media (min-width: 992px) {
-  /* line 212, ../src/style.scss */
+  /* line 218, ../src/style.scss */
   .site .site-main::before, .site .site-main::after {
     content: "";
     position: absolute;
@@ -214,21 +219,21 @@ body {
     background-size: 100%;
     background-repeat: repeat-y;
   }
-  /* line 224, ../src/style.scss */
+  /* line 230, ../src/style.scss */
   .site .site-main::before {
     left: 0;
     background-image: url(https://i0.wp.com/raw.githubusercontent.com/WCLDN/2017-theme/master/images/curtain-drape-left-001.png);
   }
-  /* line 229, ../src/style.scss */
+  /* line 235, ../src/style.scss */
   .site .site-main::after {
     right: 0;
     background-image: url(https://i0.wp.com/raw.githubusercontent.com/WCLDN/2017-theme/master/images/curtain-drape-right-001.png);
   }
-  /* line 236, ../src/style.scss */
+  /* line 242, ../src/style.scss */
   .site .site-footer {
     position: relative;
   }
-  /* line 240, ../src/style.scss */
+  /* line 246, ../src/style.scss */
   .site .site-footer::before, .site .site-footer::after {
     content: "";
     position: absolute;
@@ -239,19 +244,19 @@ body {
     background-size: 100%;
     background-repeat: repeat-y;
   }
-  /* line 252, ../src/style.scss */
+  /* line 258, ../src/style.scss */
   .site .site-footer::before {
     left: 0;
     background-image: url(https://i0.wp.com/raw.githubusercontent.com/WCLDN/2017-theme/master/images/curtain-bottom-left-001.png);
   }
-  /* line 257, ../src/style.scss */
+  /* line 263, ../src/style.scss */
   .site .site-footer::after {
     right: 0;
     background-image: url(https://i0.wp.com/raw.githubusercontent.com/WCLDN/2017-theme/master/images/curtain-bottom-right-001.png);
   }
 }
 
-/* line 269, ../src/style.scss */
+/* line 275, ../src/style.scss */
 .site-footer {
   background-color: #dbbb89;
 }
