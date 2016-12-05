@@ -243,15 +243,17 @@ body {
   .site .site-footer::before {
     left: 0;
     background-image: url(https://i0.wp.com/raw.githubusercontent.com/WCLDN/2017-theme/master/images/curtain-bottom-left-001.png);
+    background-repeat: no-repeat;
   }
-  /* line 257, ../src/style.scss */
+  /* line 258, ../src/style.scss */
   .site .site-footer::after {
     right: 0;
     background-image: url(https://i0.wp.com/raw.githubusercontent.com/WCLDN/2017-theme/master/images/curtain-bottom-right-001.png);
+    background-repeat: no-repeat;
   }
 }
 
-/* line 269, ../src/style.scss */
+/* line 271, ../src/style.scss */
 .site-footer {
   background-color: #dbbb89;
 }
