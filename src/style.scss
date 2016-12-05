@@ -102,6 +102,12 @@ body {
 
 	}
 
+	// Override overly specific TwentyThirteen styles
+	.skip-link.skip-link:focus {
+		color: $brand-primary;
+		top: -2px;
+	}
+
 	.menu-toggle {
 		color: $white;
 	}
