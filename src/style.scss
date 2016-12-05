@@ -252,11 +252,13 @@ body {
 			&::before {
 				left: 0;
 				background-image: url(#{$assets-url}/images/curtain-bottom-left-001.png);
+				background-repeat: no-repeat;
 			}
 
 			&::after {
 				right: 0;
 				background-image: url(#{$assets-url}/images/curtain-bottom-right-001.png);
+				background-repeat: no-repeat;
 			}
 
 		}
