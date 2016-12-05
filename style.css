@@ -256,28 +256,4 @@ body {
   background-color: #dbbb89;
 }
 
-/* line 273, ../src/style.scss */
-button,
-select,
-input,
-textarea {
-  border: 2px solid #4f483e;
-  font-family: inherit;
-  padding: 5px;
-}
-
-/* line 282, ../src/style.scss */
-input,
-select,
-textarea {
-  color: inherit;
-}
-/* line 287, ../src/style.scss */
-input:focus,
-select:focus,
-textarea:focus {
-  border-color: #e7be4c;
-  outline: none;
-}
-
 /*# sourceMappingURL=style.css.map */
