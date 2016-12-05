@@ -1,0 +1,6 @@
+/build
+/node_modules
+/.sass-cache
+/.idea
+/.travis
+/Gemfile.lock
