@@ -14,3 +14,13 @@ WordPress theme assets for 2017.london.wordcamp.org
 1. Checkout out this repo as 2017-theme in the VVV www folder
 1. Run `vagrant provision`
 1. Set the theme of http://2014.content.wordcamp.dev/ to `Twenty Thirteen`
+
+## Brand Colours (used for theme)
+- #A61F23
+- #FFCC02
+- #FFCC02
+- #27211F
+- #A6A8AB
+- #27211F
+- #FFCC02
+- #A6A8AB
