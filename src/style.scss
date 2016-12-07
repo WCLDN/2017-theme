@@ -102,6 +102,11 @@ body {
 
 	}
 
+	// Hiding the search in the navigation bar, as it will be included in the sidebar instead.
+	.search-form {
+		display: none;
+	}
+
 	.menu-toggle {
 		color: $white;
 	}
