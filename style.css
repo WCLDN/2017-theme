@@ -79,32 +79,47 @@ h6 {
 }
 /* line 71, ../src/style.scss */
 .site-header h1 {
+  height: 3.5rem;
+  margin: 0 auto;
+  font-size: 0;
   padding: 0;
   font-weight: 600;
   font-variant: normal;
   font-style: normal;
-  font-size: 1.5rem;
   font-family: "mostra-nuova", sans-serif;
 }
+/* line 81, ../src/style.scss */
+.site-header h1:before {
+  content: "WordCamp ";
+  color: #ffcd06;
+}
+/* line 86, ../src/style.scss */
+.site-header h1:after {
+  content: "London 2017";
+}
+/* line 90, ../src/style.scss */
+.site-header h1:before, .site-header h1:after {
+  font-size: 3.5rem;
+}
 @media (min-width: 768px) {
-  /* line 71, ../src/style.scss */
-  .site-header h1 {
+  /* line 90, ../src/style.scss */
+  .site-header h1:before, .site-header h1:after {
     font-size: 2rem;
   }
 }
 @media (min-width: 992px) {
-  /* line 71, ../src/style.scss */
-  .site-header h1 {
+  /* line 90, ../src/style.scss */
+  .site-header h1:before, .site-header h1:after {
     font-size: 3rem;
   }
 }
 @media (min-width: 1200px) {
-  /* line 71, ../src/style.scss */
-  .site-header h1 {
+  /* line 90, ../src/style.scss */
+  .site-header h1:before, .site-header h1:after {
     font-size: 3.5rem;
   }
 }
-/* line 93, ../src/style.scss */
+/* line 108, ../src/style.scss */
 .site-header h2 {
   font-weight: 400;
   font-variant: normal;
@@ -116,18 +131,18 @@ h6 {
   position: relative;
 }
 @media (min-width: 992px) {
-  /* line 93, ../src/style.scss */
+  /* line 108, ../src/style.scss */
   .site-header h2 {
     font-size: 1.5rem;
   }
 }
 @media (min-width: 1200px) {
-  /* line 93, ../src/style.scss */
+  /* line 108, ../src/style.scss */
   .site-header h2 {
     font-size: 1.75rem;
   }
 }
-/* line 115, ../src/style.scss */
+/* line 130, ../src/style.scss */
 .site-header .home-link {
   position: relative;
   background-color: transparent;
@@ -137,7 +152,7 @@ h6 {
   padding: 20px;
   color: #fff;
 }
-/* line 124, ../src/style.scss */
+/* line 139, ../src/style.scss */
 .site-header .home-link::before {
   content: "";
   position: relative;
@@ -150,20 +165,20 @@ h6 {
   background-size: 100%;
 }
 @media (min-width: 768px) {
-  /* line 124, ../src/style.scss */
+  /* line 139, ../src/style.scss */
   .site-header .home-link::before {
     margin-top: 70px;
     margin-bottom: 0;
   }
 }
 @media (min-width: 992px) {
-  /* line 124, ../src/style.scss */
+  /* line 139, ../src/style.scss */
   .site-header .home-link::before {
     margin-top: 60px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 124, ../src/style.scss */
+  /* line 139, ../src/style.scss */
   .site-header .home-link::before {
     margin-top: 45px;
     width: 70px;
@@ -171,55 +186,38 @@ h6 {
   }
 }
 @media (min-width: 1300px) {
-  /* line 124, ../src/style.scss */
+  /* line 139, ../src/style.scss */
   .site-header .home-link::before {
     margin-top: 35px;
   }
 }
-/* line 156, ../src/style.scss */
-.site-header .home-link .site-title {
-  height: 3.5rem;
-  margin: 0 auto;
-  font-size: 0;
-}
-/* line 161, ../src/style.scss */
-.site-header .home-link .site-title:before {
-  content: "WordCamp ";
-  font-size: 3.5rem;
-  color: #ffcd06;
-}
-/* line 167, ../src/style.scss */
-.site-header .home-link .site-title:after {
-  content: "London 2017";
-  font-size: 3.5rem;
-}
-/* line 175, ../src/style.scss */
+/* line 173, ../src/style.scss */
 .site-header .search-form {
   display: none;
 }
-/* line 179, ../src/style.scss */
+/* line 177, ../src/style.scss */
 .site-header .menu-toggle {
   color: #fff;
 }
-/* line 183, ../src/style.scss */
+/* line 181, ../src/style.scss */
 .site-header .navbar {
   position: relative;
   padding-top: 5px;
   padding-bottom: 5px;
   background-color: #27211f;
 }
-/* line 189, ../src/style.scss */
+/* line 187, ../src/style.scss */
 .site-header .navbar a {
   color: #fff;
   text-transform: uppercase;
 }
-/* line 196, ../src/style.scss */
+/* line 194, ../src/style.scss */
 .site-header .nav-menu {
   padding: 0;
   text-align: center;
 }
 @media (min-width: 768px) {
-  /* line 205, ../src/style.scss */
+  /* line 203, ../src/style.scss */
   .site-header::before, .site-header::after {
     content: "";
     position: absolute;
@@ -231,33 +229,33 @@ h6 {
     background-repeat: no-repeat;
     z-index: 2;
   }
-  /* line 218, ../src/style.scss */
+  /* line 216, ../src/style.scss */
   .site-header::before {
     left: 0;
     background-image: url(https://i0.wp.com/raw.githubusercontent.com/WCLDN/2017-theme/master/images/curtain-left-no-shadow-001.png);
   }
-  /* line 223, ../src/style.scss */
+  /* line 221, ../src/style.scss */
   .site-header::after {
     right: 0;
     background-image: url(https://i0.wp.com/raw.githubusercontent.com/WCLDN/2017-theme/master/images/curtain-right-no-shadow-001.png);
   }
-  /* line 229, ../src/style.scss */
+  /* line 227, ../src/style.scss */
   .site-header .navbar {
     position: relative;
     margin-top: -20px;
     padding-top: 25px;
   }
-  /* line 236, ../src/style.scss */
+  /* line 234, ../src/style.scss */
   .site-header .main-navigation {
     max-width: none;
     padding-left: 160px;
     padding-right: 160px;
   }
-  /* line 243, ../src/style.scss */
+  /* line 241, ../src/style.scss */
   .site-header .home-link {
     padding: 0 20px;
   }
-  /* line 247, ../src/style.scss */
+  /* line 245, ../src/style.scss */
   .site-header .home-link::after {
     content: "";
     position: absolute;
@@ -271,26 +269,26 @@ h6 {
   }
 }
 @media (min-width: 768px) and (min-width: 1200px) {
-  /* line 263, ../src/style.scss */
+  /* line 261, ../src/style.scss */
   .site-header::before {
     background-image: url(https://i0.wp.com/raw.githubusercontent.com/WCLDN/2017-theme/master/images/curtain-left-002.png);
   }
-  /* line 267, ../src/style.scss */
+  /* line 265, ../src/style.scss */
   .site-header::after {
     background-image: url(https://i0.wp.com/raw.githubusercontent.com/WCLDN/2017-theme/master/images/curtain-right-002.png);
   }
 }
 
-/* line 277, ../src/style.scss */
+/* line 275, ../src/style.scss */
 .site {
   border: 0;
 }
 @media (min-width: 992px) {
-  /* line 284, ../src/style.scss */
+  /* line 282, ../src/style.scss */
   .site .site-main {
     padding: 0 160px;
   }
-  /* line 288, ../src/style.scss */
+  /* line 286, ../src/style.scss */
   .site .site-main::before, .site .site-main::after {
     content: "";
     position: absolute;
@@ -301,21 +299,21 @@ h6 {
     background-size: 100%;
     background-repeat: repeat-y;
   }
-  /* line 300, ../src/style.scss */
+  /* line 298, ../src/style.scss */
   .site .site-main::before {
     left: 0;
     background-image: url(https://i0.wp.com/raw.githubusercontent.com/WCLDN/2017-theme/master/images/curtain-drape-left-002.png);
   }
-  /* line 305, ../src/style.scss */
+  /* line 303, ../src/style.scss */
   .site .site-main::after {
     right: 0;
     background-image: url(https://i0.wp.com/raw.githubusercontent.com/WCLDN/2017-theme/master/images/curtain-drape-right-002.png);
   }
-  /* line 312, ../src/style.scss */
+  /* line 310, ../src/style.scss */
   .site .site-footer {
     position: relative;
   }
-  /* line 316, ../src/style.scss */
+  /* line 314, ../src/style.scss */
   .site .site-footer::before, .site .site-footer::after {
     content: "";
     position: absolute;
@@ -326,93 +324,93 @@ h6 {
     background-size: 100%;
     background-repeat: repeat-y;
   }
-  /* line 328, ../src/style.scss */
+  /* line 326, ../src/style.scss */
   .site .site-footer::before {
     left: 0;
     background-image: url(https://i0.wp.com/raw.githubusercontent.com/WCLDN/2017-theme/master/images/curtain-bottom-left-002.png);
     background-repeat: no-repeat;
   }
-  /* line 334, ../src/style.scss */
+  /* line 332, ../src/style.scss */
   .site .site-footer::after {
     right: 0;
     background-image: url(https://i0.wp.com/raw.githubusercontent.com/WCLDN/2017-theme/master/images/curtain-bottom-right-002.png);
     background-repeat: no-repeat;
   }
 }
-/* line 344, ../src/style.scss */
+/* line 342, ../src/style.scss */
 .site .entry-title {
   font-weight: 600;
 }
 
-/* line 353, ../src/style.scss */
+/* line 351, ../src/style.scss */
 .site-main .sidebar-container {
   left: 0;
   right: 0;
 }
-/* line 358, ../src/style.scss */
+/* line 356, ../src/style.scss */
 .site-main .sidebar-inner {
   max-width: none;
 }
 @media (min-width: 992px) {
-  /* line 358, ../src/style.scss */
+  /* line 356, ../src/style.scss */
   .site-main .sidebar-inner {
     padding: 0 180px;
   }
 }
-/* line 365, ../src/style.scss */
+/* line 363, ../src/style.scss */
 .site-main .sidebar-inner .widget-area {
   margin-right: 0;
 }
 @media (min-width: 1200px) {
-  /* line 365, ../src/style.scss */
+  /* line 363, ../src/style.scss */
   .site-main .sidebar-inner .widget-area {
     margin-right: 40px;
   }
 }
 @media (min-width: 1300px) {
-  /* line 365, ../src/style.scss */
+  /* line 363, ../src/style.scss */
   .site-main .sidebar-inner .widget-area {
     margin-right: 60px;
   }
 }
-/* line 380, ../src/style.scss */
+/* line 378, ../src/style.scss */
 .site-main .widget-title {
   font-family: "mostra-nuova", sans-serif;
 }
 
-/* line 387, ../src/style.scss */
+/* line 385, ../src/style.scss */
 .site-footer {
   background-color: #dbbb89;
 }
-/* line 391, ../src/style.scss */
+/* line 389, ../src/style.scss */
 .site-footer .sidebar-container {
   background: transparent;
   text-align: center;
 }
-/* line 397, ../src/style.scss */
+/* line 395, ../src/style.scss */
 .sidebar .site-footer .widget-area {
   max-width: 600px;
   left: auto;
 }
 @media (min-width: 1200px) {
-  /* line 397, ../src/style.scss */
+  /* line 395, ../src/style.scss */
   .sidebar .site-footer .widget-area {
     max-width: 840px;
   }
 }
 @media (min-width: 1300px) {
-  /* line 397, ../src/style.scss */
+  /* line 395, ../src/style.scss */
   .sidebar .site-footer .widget-area {
     max-width: 940px;
   }
 }
 @media (min-width: 1750px) {
-  /* line 397, ../src/style.scss */
+  /* line 395, ../src/style.scss */
   .sidebar .site-footer .widget-area {
     max-width: 1040px;
   }
 }
-/* line 415, ../src/style.scss */
+/* line 413, ../src/style.scss */
 .site-footer .widget {
   position: relative !important;
   left: auto !important;
@@ -421,18 +419,18 @@ h6 {
   margin: 0 auto;
   float: none;
 }
-/* line 424, ../src/style.scss */
+/* line 422, ../src/style.scss */
 .site-footer .widget_text {
   margin: 10px 0;
   text-align: center;
   color: #fff;
 }
 @media (min-width: 768px) {
-  /* line 424, ../src/style.scss */
+  /* line 422, ../src/style.scss */
   .site-footer .widget_text {
     padding: 20px 20px 60px;
   }
-  /* line 434, ../src/style.scss */
+  /* line 432, ../src/style.scss */
   .site-footer .widget_text::before, .site-footer .widget_text::after {
     content: "";
     position: absolute;
@@ -443,37 +441,37 @@ h6 {
     background-size: 100%;
     background-repeat: repeat-y;
   }
-  /* line 446, ../src/style.scss */
+  /* line 444, ../src/style.scss */
   .site-footer .widget_text::before {
     left: 0;
     background-image: url(https://i0.wp.com/raw.githubusercontent.com/WCLDN/2017-theme/master/images/text-widget-top-left-001.png);
     background-repeat: no-repeat;
   }
-  /* line 452, ../src/style.scss */
+  /* line 450, ../src/style.scss */
   .site-footer .widget_text::after {
     right: 0;
     background-image: url(https://i0.wp.com/raw.githubusercontent.com/WCLDN/2017-theme/master/images/text-widget-top-right-001.png);
     background-repeat: no-repeat;
   }
 }
-/* line 460, ../src/style.scss */
+/* line 458, ../src/style.scss */
 .site-footer .widget_text .widget-title {
   position: absolute;
   top: 25px;
   left: 0;
   right: 0;
 }
-/* line 467, ../src/style.scss */
+/* line 465, ../src/style.scss */
 .site-footer .widget_text a {
   color: #fff;
 }
-/* line 473, ../src/style.scss */
+/* line 471, ../src/style.scss */
 .site-footer .textwidget {
   padding: 40px 20px;
   background-color: #333232;
 }
 @media (min-width: 768px) {
-  /* line 480, ../src/style.scss */
+  /* line 478, ../src/style.scss */
   .site-footer .textwidget::before, .site-footer .textwidget::after {
     content: "";
     position: absolute;
@@ -483,13 +481,13 @@ h6 {
     background-size: 100%;
     background-repeat: repeat-y;
   }
-  /* line 491, ../src/style.scss */
+  /* line 489, ../src/style.scss */
   .site-footer .textwidget::before {
     left: 0;
     top: 6px;
     background-image: url(https://i0.wp.com/raw.githubusercontent.com/WCLDN/2017-theme/master/images/text-widget-left-001.png);
   }
-  /* line 497, ../src/style.scss */
+  /* line 495, ../src/style.scss */
   .site-footer .textwidget::after {
     right: 0;
     top: 6px;
@@ -497,7 +495,7 @@ h6 {
   }
 }
 @media (min-width: 768px) {
-  /* line 511, ../src/style.scss */
+  /* line 509, ../src/style.scss */
   .site-footer .curtains-bottom::before, .site-footer .curtains-bottom::after {
     content: "";
     position: absolute;
@@ -508,22 +506,22 @@ h6 {
     background-size: 100%;
     background-repeat: no-repeat;
   }
-  /* line 523, ../src/style.scss */
+  /* line 521, ../src/style.scss */
   .site-footer .curtains-bottom::before {
     left: 0;
     background-image: url(https://i0.wp.com/raw.githubusercontent.com/WCLDN/2017-theme/master/images/text-widget-bottom-left-001.png);
   }
-  /* line 528, ../src/style.scss */
+  /* line 526, ../src/style.scss */
   .site-footer .curtains-bottom::after {
     right: 0;
     background-image: url(https://i0.wp.com/raw.githubusercontent.com/WCLDN/2017-theme/master/images/text-widget-bottom-right-001.png);
   }
 }
-/* line 537, ../src/style.scss */
+/* line 535, ../src/style.scss */
 .site-footer .site-info {
   min-height: 110px;
 }
-/* line 540, ../src/style.scss */
+/* line 538, ../src/style.scss */
 .site-footer .site-info a {
   display: none;
 }
