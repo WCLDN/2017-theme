@@ -523,10 +523,13 @@ h6 {
 /* line 543, ../src/style.scss */
 .widget {
   background-color: #fff;
+  border: 4px double #27211f;
 }
-/* line 545, ../src/style.scss */
+/* line 546, ../src/style.scss */
 .widget input[type=submit] {
-  background-color: #a61f23;
+  background: #a61f23;
+  font-weight: 800;
+  border: 1px solid #ffcd06;
   color: #ffcd06;
 }
 
