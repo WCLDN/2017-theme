@@ -552,4 +552,9 @@ ul.nav-menu ul a:focus,
   background: #a61f23;
 }
 
+/* line 572, ../src/style.scss */
+#subscribe-submit {
+  margin: 0;
+}
+
 /*# sourceMappingURL=style.css.map */
