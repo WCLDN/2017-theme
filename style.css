@@ -532,5 +532,24 @@ h6 {
   border: 1px solid #ffcd06;
   color: #ffcd06;
 }
+/* line 551, ../src/style.scss */
+.widget input[type=submit]:hover, .widget input[type=submit]:focus, .widget input[type=submit]:active {
+  background: #ffcd06;
+  color: #a61f23;
+}
+
+/* line 560, ../src/style.scss */
+.nav-menu .sub-menu,
+.nav-menu .children {
+  text-align: left;
+}
+
+/* line 565, ../src/style.scss */
+ul.nav-menu ul a:hover,
+.nav-menu ul ul a:hover,
+ul.nav-menu ul a:focus,
+.nav-menu ul ul a:focus {
+  background: #a61f23;
+}
 
 /*# sourceMappingURL=style.css.map */
