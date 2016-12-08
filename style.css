@@ -89,33 +89,33 @@ h6 {
   font-family: "mostra-nuova", sans-serif;
 }
 /* line 81, ../src/style.scss */
-.site-header h1:before {
+.site-header h1::before {
   content: "WordCamp ";
   color: #ffcd06;
 }
 /* line 86, ../src/style.scss */
-.site-header h1:after {
+.site-header h1::after {
   content: "London 2017";
 }
 /* line 90, ../src/style.scss */
-.site-header h1:before, .site-header h1:after {
+.site-header h1::before, .site-header h1::after {
   font-size: 3.5rem;
 }
 @media (min-width: 768px) {
   /* line 90, ../src/style.scss */
-  .site-header h1:before, .site-header h1:after {
+  .site-header h1::before, .site-header h1::after {
     font-size: 2rem;
   }
 }
 @media (min-width: 992px) {
   /* line 90, ../src/style.scss */
-  .site-header h1:before, .site-header h1:after {
+  .site-header h1::before, .site-header h1::after {
     font-size: 3rem;
   }
 }
 @media (min-width: 1200px) {
   /* line 90, ../src/style.scss */
-  .site-header h1:before, .site-header h1:after {
+  .site-header h1::before, .site-header h1::after {
     font-size: 3.5rem;
   }
 }
