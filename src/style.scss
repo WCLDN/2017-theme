@@ -543,17 +543,18 @@ h6 {
 .widget {
 	background-color: $white;
 	border: 4px double $brand-dark;
-	input[type=submit]{
-		background: $brand-primary;
-		font-weight: 800;
-		border: 1px solid $logo;
-		color: $logo;
-		&:hover,
-		&:focus,
-		&:active {
-			background: $logo;
-			color: $brand-primary;
-		}
+}
+
+input[type=submit]{
+	background: $brand-primary;
+	font-weight: 800;
+	border: 1px solid $logo;
+	color: $logo;
+	&:hover,
+	&:focus,
+	&:active {
+		background: $logo;
+		color: $brand-primary;
 	}
 }
 
