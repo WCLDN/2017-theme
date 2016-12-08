@@ -540,3 +540,10 @@ h6 {
 
 }
 
+.widget {
+	background-color: $white;
+	input[type=submit]{
+		background-color: $brand-primary;
+		color: $logo;
+	}
+}
