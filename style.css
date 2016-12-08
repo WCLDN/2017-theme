@@ -332,47 +332,50 @@ h6 {
   background: transparent;
   text-align: center;
 }
-/* line 340, ../src/style.scss */
-.site-footer .widget-area {
+/* line 341, ../src/style.scss */
+.sidebar .site-footer .widget-area {
   max-width: 600px;
+  left: auto;
 }
 @media (min-width: 1200px) {
-  /* line 340, ../src/style.scss */
-  .site-footer .widget-area {
+  /* line 341, ../src/style.scss */
+  .sidebar .site-footer .widget-area {
     max-width: 840px;
   }
 }
 @media (min-width: 1300px) {
-  /* line 340, ../src/style.scss */
-  .site-footer .widget-area {
+  /* line 341, ../src/style.scss */
+  .sidebar .site-footer .widget-area {
     max-width: 940px;
   }
 }
 @media (min-width: 1750px) {
-  /* line 340, ../src/style.scss */
-  .site-footer .widget-area {
+  /* line 341, ../src/style.scss */
+  .sidebar .site-footer .widget-area {
     max-width: 1040px;
   }
 }
-/* line 357, ../src/style.scss */
+/* line 359, ../src/style.scss */
 .site-footer .widget {
   position: relative !important;
   left: auto !important;
   top: auto !important;
-  width: 100%;
+  width: 100% !important;
+  margin: 0 auto;
+  float: none;
 }
-/* line 364, ../src/style.scss */
+/* line 368, ../src/style.scss */
 .site-footer .widget_text {
   margin: 10px 0;
   text-align: center;
   color: #fff;
 }
 @media (min-width: 768px) {
-  /* line 364, ../src/style.scss */
+  /* line 368, ../src/style.scss */
   .site-footer .widget_text {
     padding: 20px 20px 60px;
   }
-  /* line 374, ../src/style.scss */
+  /* line 378, ../src/style.scss */
   .site-footer .widget_text::before, .site-footer .widget_text::after {
     content: "";
     position: absolute;
@@ -383,37 +386,37 @@ h6 {
     background-size: 100%;
     background-repeat: repeat-y;
   }
-  /* line 386, ../src/style.scss */
+  /* line 390, ../src/style.scss */
   .site-footer .widget_text::before {
     left: 0;
     background-image: url(https://i0.wp.com/raw.githubusercontent.com/WCLDN/2017-theme/master/images/text-widget-top-left-001.png);
     background-repeat: no-repeat;
   }
-  /* line 392, ../src/style.scss */
+  /* line 396, ../src/style.scss */
   .site-footer .widget_text::after {
     right: 0;
     background-image: url(https://i0.wp.com/raw.githubusercontent.com/WCLDN/2017-theme/master/images/text-widget-top-right-001.png);
     background-repeat: no-repeat;
   }
 }
-/* line 400, ../src/style.scss */
+/* line 404, ../src/style.scss */
 .site-footer .widget_text .widget-title {
   position: absolute;
   top: 25px;
   left: 0;
   right: 0;
 }
-/* line 407, ../src/style.scss */
+/* line 411, ../src/style.scss */
 .site-footer .widget_text a {
   color: #fff;
 }
-/* line 413, ../src/style.scss */
+/* line 417, ../src/style.scss */
 .site-footer .textwidget {
   padding: 40px 20px;
   background-color: #333232;
 }
 @media (min-width: 768px) {
-  /* line 420, ../src/style.scss */
+  /* line 424, ../src/style.scss */
   .site-footer .textwidget::before, .site-footer .textwidget::after {
     content: "";
     position: absolute;
@@ -423,13 +426,13 @@ h6 {
     background-size: 100%;
     background-repeat: repeat-y;
   }
-  /* line 431, ../src/style.scss */
+  /* line 435, ../src/style.scss */
   .site-footer .textwidget::before {
     left: 0;
     top: 6px;
     background-image: url(https://i0.wp.com/raw.githubusercontent.com/WCLDN/2017-theme/master/images/text-widget-left-001.png);
   }
-  /* line 437, ../src/style.scss */
+  /* line 441, ../src/style.scss */
   .site-footer .textwidget::after {
     right: 0;
     top: 6px;
@@ -437,7 +440,7 @@ h6 {
   }
 }
 @media (min-width: 768px) {
-  /* line 451, ../src/style.scss */
+  /* line 455, ../src/style.scss */
   .site-footer .curtains-bottom::before, .site-footer .curtains-bottom::after {
     content: "";
     position: absolute;
@@ -448,22 +451,22 @@ h6 {
     background-size: 100%;
     background-repeat: no-repeat;
   }
-  /* line 463, ../src/style.scss */
+  /* line 467, ../src/style.scss */
   .site-footer .curtains-bottom::before {
     left: 0;
     background-image: url(https://i0.wp.com/raw.githubusercontent.com/WCLDN/2017-theme/master/images/text-widget-bottom-left-001.png);
   }
-  /* line 468, ../src/style.scss */
+  /* line 472, ../src/style.scss */
   .site-footer .curtains-bottom::after {
     right: 0;
     background-image: url(https://i0.wp.com/raw.githubusercontent.com/WCLDN/2017-theme/master/images/text-widget-bottom-right-001.png);
   }
 }
-/* line 477, ../src/style.scss */
+/* line 481, ../src/style.scss */
 .site-footer .site-info {
   min-height: 110px;
 }
-/* line 480, ../src/style.scss */
+/* line 484, ../src/style.scss */
 .site-footer .site-info a {
   display: none;
 }
