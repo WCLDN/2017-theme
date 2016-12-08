@@ -329,8 +329,10 @@ h6 {
 		text-align: center;
 	}
 
-	.widget-area {
+	// Have had to be more specific here to override some twentythirteen styles.
+	.sidebar & .widget-area {
 		max-width: 600px;
+		left: auto;
 
 		@media (min-width: $screen-lg-min) {
 			max-width: 840px;
@@ -350,7 +352,9 @@ h6 {
 		position: relative !important;
 		left: auto !important;
 		top: auto !important;
-		width: 100%;
+		width: 100% !important;
+		margin: 0 auto;
+		float: none;
 	}
 
 	.widget_text {
