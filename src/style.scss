@@ -268,11 +268,6 @@ h6 {
 
 	border: 0;
 
-	@media (min-width: $screen-md-min) {
-		// This overflow hidden is applied as we are now using the 9999px height on our curtains to bypass a twentythirteen limitation
-		overflow: hidden;
-	}
-
 	// Showing the curtains
 	@media (min-width: $screen-md-min) {
 
@@ -285,8 +280,7 @@ h6 {
 				content: "";
 				position: absolute;
 				top: 0;
-				// This is a real dirty hack so that we can keep using the twentythirteen inline styles for the sidebar (namely the margin-top it applied to the footer).
-				height: 9999px;
+				bottom: 0;
 				display: block;
 				width: 165px;
 				background-size: 100%;
