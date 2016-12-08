@@ -525,26 +525,27 @@ h6 {
   background-color: #fff;
   border: 4px double #27211f;
 }
-/* line 546, ../src/style.scss */
-.widget input[type=submit] {
+
+/* line 548, ../src/style.scss */
+input[type=submit] {
   background: #a61f23;
   font-weight: 800;
   border: 1px solid #ffcd06;
   color: #ffcd06;
 }
-/* line 551, ../src/style.scss */
-.widget input[type=submit]:hover, .widget input[type=submit]:focus, .widget input[type=submit]:active {
+/* line 553, ../src/style.scss */
+input[type=submit]:hover, input[type=submit]:focus, input[type=submit]:active {
   background: #ffcd06;
   color: #a61f23;
 }
 
-/* line 560, ../src/style.scss */
+/* line 561, ../src/style.scss */
 .nav-menu .sub-menu,
 .nav-menu .children {
   text-align: left;
 }
 
-/* line 565, ../src/style.scss */
+/* line 566, ../src/style.scss */
 ul.nav-menu ul a:hover,
 .nav-menu ul ul a:hover,
 ul.nav-menu ul a:focus,
@@ -552,7 +553,7 @@ ul.nav-menu ul a:focus,
   background: #a61f23;
 }
 
-/* line 572, ../src/style.scss */
+/* line 573, ../src/style.scss */
 #subscribe-submit {
   margin: 0;
 }
