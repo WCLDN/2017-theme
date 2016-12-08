@@ -542,8 +542,11 @@ h6 {
 
 .widget {
 	background-color: $white;
+	border: 4px double $brand-dark;
 	input[type=submit]{
-		background-color: $brand-primary;
+		background: $brand-primary;
+		font-weight: 800;
+		border: 1px solid $gold;
 		color: $logo;
 	}
 }
