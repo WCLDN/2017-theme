@@ -261,7 +261,11 @@ h6 {
   border: 0;
 }
 @media (min-width: 992px) {
-  /* line 262, ../src/style.scss */
+  /* line 260, ../src/style.scss */
+  .site .site-main {
+    padding: 0 160px;
+  }
+  /* line 264, ../src/style.scss */
   .site .site-main::before, .site .site-main::after {
     content: "";
     position: absolute;
@@ -272,21 +276,21 @@ h6 {
     background-size: 100%;
     background-repeat: repeat-y;
   }
-  /* line 274, ../src/style.scss */
+  /* line 276, ../src/style.scss */
   .site .site-main::before {
     left: 0;
     background-image: url(https://i0.wp.com/raw.githubusercontent.com/WCLDN/2017-theme/master/images/curtain-drape-left-002.png);
   }
-  /* line 279, ../src/style.scss */
+  /* line 281, ../src/style.scss */
   .site .site-main::after {
     right: 0;
     background-image: url(https://i0.wp.com/raw.githubusercontent.com/WCLDN/2017-theme/master/images/curtain-drape-right-002.png);
   }
-  /* line 286, ../src/style.scss */
+  /* line 288, ../src/style.scss */
   .site .site-footer {
     position: relative;
   }
-  /* line 290, ../src/style.scss */
+  /* line 292, ../src/style.scss */
   .site .site-footer::before, .site .site-footer::after {
     content: "";
     position: absolute;
@@ -297,13 +301,13 @@ h6 {
     background-size: 100%;
     background-repeat: repeat-y;
   }
-  /* line 302, ../src/style.scss */
+  /* line 304, ../src/style.scss */
   .site .site-footer::before {
     left: 0;
     background-image: url(https://i0.wp.com/raw.githubusercontent.com/WCLDN/2017-theme/master/images/curtain-bottom-left-002.png);
     background-repeat: no-repeat;
   }
-  /* line 308, ../src/style.scss */
+  /* line 310, ../src/style.scss */
   .site .site-footer::after {
     right: 0;
     background-image: url(https://i0.wp.com/raw.githubusercontent.com/WCLDN/2017-theme/master/images/curtain-bottom-right-002.png);
@@ -311,56 +315,56 @@ h6 {
   }
 }
 
-/* line 321, ../src/style.scss */
+/* line 323, ../src/style.scss */
 .site-footer {
   background-color: #dbbb89;
 }
-/* line 325, ../src/style.scss */
+/* line 327, ../src/style.scss */
 .site-footer .sidebar-container {
   background: transparent;
   text-align: center;
 }
-/* line 330, ../src/style.scss */
+/* line 332, ../src/style.scss */
 .site-footer .widget-area {
   max-width: 600px;
 }
 @media (min-width: 1200px) {
-  /* line 330, ../src/style.scss */
+  /* line 332, ../src/style.scss */
   .site-footer .widget-area {
     max-width: 840px;
   }
 }
 @media (min-width: 1300px) {
-  /* line 330, ../src/style.scss */
+  /* line 332, ../src/style.scss */
   .site-footer .widget-area {
     max-width: 940px;
   }
 }
 @media (min-width: 1750px) {
-  /* line 330, ../src/style.scss */
+  /* line 332, ../src/style.scss */
   .site-footer .widget-area {
     max-width: 1040px;
   }
 }
-/* line 347, ../src/style.scss */
+/* line 349, ../src/style.scss */
 .site-footer .widget {
   position: relative !important;
   left: auto !important;
   top: auto !important;
   width: 100%;
 }
-/* line 354, ../src/style.scss */
+/* line 356, ../src/style.scss */
 .site-footer .widget_text {
   margin: 10px 0;
   text-align: center;
   color: #fff;
 }
 @media (min-width: 768px) {
-  /* line 354, ../src/style.scss */
+  /* line 356, ../src/style.scss */
   .site-footer .widget_text {
     padding: 20px 20px 60px;
   }
-  /* line 364, ../src/style.scss */
+  /* line 366, ../src/style.scss */
   .site-footer .widget_text::before, .site-footer .widget_text::after {
     content: "";
     position: absolute;
@@ -371,37 +375,37 @@ h6 {
     background-size: 100%;
     background-repeat: repeat-y;
   }
-  /* line 376, ../src/style.scss */
+  /* line 378, ../src/style.scss */
   .site-footer .widget_text::before {
     left: 0;
     background-image: url(https://i0.wp.com/raw.githubusercontent.com/WCLDN/2017-theme/master/images/text-widget-top-left-001.png);
     background-repeat: no-repeat;
   }
-  /* line 382, ../src/style.scss */
+  /* line 384, ../src/style.scss */
   .site-footer .widget_text::after {
     right: 0;
     background-image: url(https://i0.wp.com/raw.githubusercontent.com/WCLDN/2017-theme/master/images/text-widget-top-right-001.png);
     background-repeat: no-repeat;
   }
 }
-/* line 390, ../src/style.scss */
+/* line 392, ../src/style.scss */
 .site-footer .widget_text .widget-title {
   position: absolute;
   top: 25px;
   left: 0;
   right: 0;
 }
-/* line 397, ../src/style.scss */
+/* line 399, ../src/style.scss */
 .site-footer .widget_text a {
   color: #fff;
 }
-/* line 403, ../src/style.scss */
+/* line 405, ../src/style.scss */
 .site-footer .textwidget {
   padding: 40px 20px;
   background-color: #333232;
 }
 @media (min-width: 768px) {
-  /* line 410, ../src/style.scss */
+  /* line 412, ../src/style.scss */
   .site-footer .textwidget::before, .site-footer .textwidget::after {
     content: "";
     position: absolute;
@@ -411,13 +415,13 @@ h6 {
     background-size: 100%;
     background-repeat: repeat-y;
   }
-  /* line 421, ../src/style.scss */
+  /* line 423, ../src/style.scss */
   .site-footer .textwidget::before {
     left: 0;
     top: 6px;
     background-image: url(https://i0.wp.com/raw.githubusercontent.com/WCLDN/2017-theme/master/images/text-widget-left-001.png);
   }
-  /* line 427, ../src/style.scss */
+  /* line 429, ../src/style.scss */
   .site-footer .textwidget::after {
     right: 0;
     top: 6px;
@@ -425,7 +429,7 @@ h6 {
   }
 }
 @media (min-width: 768px) {
-  /* line 441, ../src/style.scss */
+  /* line 443, ../src/style.scss */
   .site-footer .curtains-bottom::before, .site-footer .curtains-bottom::after {
     content: "";
     position: absolute;
@@ -436,12 +440,12 @@ h6 {
     background-size: 100%;
     background-repeat: no-repeat;
   }
-  /* line 453, ../src/style.scss */
+  /* line 455, ../src/style.scss */
   .site-footer .curtains-bottom::before {
     left: 0;
     background-image: url(https://i0.wp.com/raw.githubusercontent.com/WCLDN/2017-theme/master/images/text-widget-bottom-left-001.png);
   }
-  /* line 458, ../src/style.scss */
+  /* line 460, ../src/style.scss */
   .site-footer .curtains-bottom::after {
     right: 0;
     background-image: url(https://i0.wp.com/raw.githubusercontent.com/WCLDN/2017-theme/master/images/text-widget-bottom-right-001.png);
