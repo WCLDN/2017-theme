@@ -40,6 +40,15 @@ body {
 
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: $font-secondary;
+}
+
 // Site Header, to include the top of the stage curtains
 .site-header {
 
