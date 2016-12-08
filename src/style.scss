@@ -153,6 +153,22 @@ h6 {
 
 		}
 
+		.site-title {
+			height: 3.5rem;
+			margin: 0 auto;
+			font-size: 0;
+
+			&:before {
+				content: "WordCamp ";
+				font-size: 3.5rem;
+				color: #ffcd06;
+			}
+
+			&:after {
+				content: "London 2017";
+				font-size: 3.5rem;
+			}
+		}
 	}
 
 	// Hiding the search in the navigation bar, as it will be included in the sidebar instead.
