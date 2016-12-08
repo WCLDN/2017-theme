@@ -459,5 +459,13 @@ h6 {
     background-image: url(https://i0.wp.com/raw.githubusercontent.com/WCLDN/2017-theme/master/images/text-widget-bottom-right-001.png);
   }
 }
+/* line 477, ../src/style.scss */
+.site-footer .site-info {
+  min-height: 110px;
+}
+/* line 480, ../src/style.scss */
+.site-footer .site-info a {
+  display: none;
+}
 
 /*# sourceMappingURL=style.css.map */
