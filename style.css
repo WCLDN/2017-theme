@@ -520,4 +520,14 @@ h6 {
   display: none;
 }
 
+/* line 543, ../src/style.scss */
+.widget {
+  background-color: #fff;
+}
+/* line 545, ../src/style.scss */
+.widget input[type=submit] {
+  background-color: #a61f23;
+  color: #ffcd06;
+}
+
 /*# sourceMappingURL=style.css.map */
