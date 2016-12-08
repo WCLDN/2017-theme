@@ -558,4 +558,10 @@ ul.nav-menu ul a:focus,
   margin: 0;
 }
 
+/* line 577, ../src/style.scss */
+.comment-respond {
+  background: #fff;
+  border-top: 4px double #ffcd06;
+}
+
 /*# sourceMappingURL=style.css.map */
