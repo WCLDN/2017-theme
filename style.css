@@ -14,7 +14,7 @@ body::after {
   width: 100%;
   height: 150px;
   margin: 0 auto;
-  background-image: url(https://i0.wp.com/raw.githubusercontent.com/WCLDN/2017-theme/master/images/theatre-seats-002.png);
+  background-image: url(https://i0.wp.com/raw.githubusercontent.com/WCLDN/2017-theme/master/images/theatre-seats-003.png);
   background-repeat: repeat-x;
   background-size: auto 100%;
   background-position: bottom;
@@ -80,7 +80,11 @@ h6 {
 /* line 71, ../src/style.scss */
 .site-header h1 {
   padding: 0;
-  font: 600 normal 1.5rem "mostra-nuova", sans-serif;
+  font-weight: 600;
+  font-variant: normal;
+  font-style: normal;
+  font-size: 1.5rem;
+  font-family: "mostra-nuova", sans-serif;
 }
 @media (min-width: 768px) {
   /* line 71, ../src/style.scss */
@@ -100,26 +104,30 @@ h6 {
     font-size: 3.5rem;
   }
 }
-/* line 89, ../src/style.scss */
+/* line 93, ../src/style.scss */
 .site-header h2 {
-  font: 400 normal 1rem "mostra-nuova", sans-serif;
+  font-weight: 400;
+  font-variant: normal;
+  font-style: normal;
+  font-size: 1rem;
+  font-family: "mostra-nuova", sans-serif;
   color: #fff;
   clip: initial;
   position: relative;
 }
 @media (min-width: 992px) {
-  /* line 89, ../src/style.scss */
+  /* line 93, ../src/style.scss */
   .site-header h2 {
     font-size: 1.5rem;
   }
 }
 @media (min-width: 1200px) {
-  /* line 89, ../src/style.scss */
+  /* line 93, ../src/style.scss */
   .site-header h2 {
     font-size: 1.75rem;
   }
 }
-/* line 107, ../src/style.scss */
+/* line 115, ../src/style.scss */
 .site-header .home-link {
   position: relative;
   background-color: transparent;
@@ -129,7 +137,7 @@ h6 {
   padding: 20px;
   color: #fff;
 }
-/* line 116, ../src/style.scss */
+/* line 124, ../src/style.scss */
 .site-header .home-link::before {
   content: "";
   position: relative;
@@ -142,20 +150,20 @@ h6 {
   background-size: 100%;
 }
 @media (min-width: 768px) {
-  /* line 116, ../src/style.scss */
+  /* line 124, ../src/style.scss */
   .site-header .home-link::before {
     margin-top: 70px;
     margin-bottom: 0;
   }
 }
 @media (min-width: 992px) {
-  /* line 116, ../src/style.scss */
+  /* line 124, ../src/style.scss */
   .site-header .home-link::before {
     margin-top: 60px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 116, ../src/style.scss */
+  /* line 124, ../src/style.scss */
   .site-header .home-link::before {
     margin-top: 45px;
     width: 70px;
@@ -163,38 +171,38 @@ h6 {
   }
 }
 @media (min-width: 1300px) {
-  /* line 116, ../src/style.scss */
+  /* line 124, ../src/style.scss */
   .site-header .home-link::before {
     margin-top: 35px;
   }
 }
-/* line 151, ../src/style.scss */
+/* line 159, ../src/style.scss */
 .site-header .search-form {
   display: none;
 }
-/* line 155, ../src/style.scss */
+/* line 163, ../src/style.scss */
 .site-header .menu-toggle {
   color: #fff;
 }
-/* line 159, ../src/style.scss */
+/* line 167, ../src/style.scss */
 .site-header .navbar {
   position: relative;
   padding-top: 5px;
   padding-bottom: 5px;
   background-color: #27211f;
 }
-/* line 165, ../src/style.scss */
+/* line 173, ../src/style.scss */
 .site-header .navbar a {
   color: #fff;
   text-transform: uppercase;
 }
-/* line 172, ../src/style.scss */
+/* line 180, ../src/style.scss */
 .site-header .nav-menu {
   padding: 0;
   text-align: center;
 }
 @media (min-width: 768px) {
-  /* line 181, ../src/style.scss */
+  /* line 189, ../src/style.scss */
   .site-header::before, .site-header::after {
     content: "";
     position: absolute;
@@ -206,33 +214,33 @@ h6 {
     background-repeat: no-repeat;
     z-index: 2;
   }
-  /* line 194, ../src/style.scss */
+  /* line 202, ../src/style.scss */
   .site-header::before {
     left: 0;
     background-image: url(https://i0.wp.com/raw.githubusercontent.com/WCLDN/2017-theme/master/images/curtain-left-no-shadow-001.png);
   }
-  /* line 199, ../src/style.scss */
+  /* line 207, ../src/style.scss */
   .site-header::after {
     right: 0;
     background-image: url(https://i0.wp.com/raw.githubusercontent.com/WCLDN/2017-theme/master/images/curtain-right-no-shadow-001.png);
   }
-  /* line 205, ../src/style.scss */
+  /* line 213, ../src/style.scss */
   .site-header .navbar {
     position: relative;
     margin-top: -20px;
     padding-top: 25px;
   }
-  /* line 212, ../src/style.scss */
+  /* line 220, ../src/style.scss */
   .site-header .main-navigation {
     max-width: none;
     padding-left: 160px;
     padding-right: 160px;
   }
-  /* line 219, ../src/style.scss */
+  /* line 227, ../src/style.scss */
   .site-header .home-link {
     padding: 0 20px;
   }
-  /* line 223, ../src/style.scss */
+  /* line 231, ../src/style.scss */
   .site-header .home-link::after {
     content: "";
     position: absolute;
@@ -246,26 +254,26 @@ h6 {
   }
 }
 @media (min-width: 768px) and (min-width: 1200px) {
-  /* line 239, ../src/style.scss */
+  /* line 247, ../src/style.scss */
   .site-header::before {
     background-image: url(https://i0.wp.com/raw.githubusercontent.com/WCLDN/2017-theme/master/images/curtain-left-002.png);
   }
-  /* line 243, ../src/style.scss */
+  /* line 251, ../src/style.scss */
   .site-header::after {
     background-image: url(https://i0.wp.com/raw.githubusercontent.com/WCLDN/2017-theme/master/images/curtain-right-002.png);
   }
 }
 
-/* line 253, ../src/style.scss */
+/* line 261, ../src/style.scss */
 .site {
   border: 0;
 }
 @media (min-width: 992px) {
-  /* line 260, ../src/style.scss */
+  /* line 268, ../src/style.scss */
   .site .site-main {
     padding: 0 160px;
   }
-  /* line 264, ../src/style.scss */
+  /* line 272, ../src/style.scss */
   .site .site-main::before, .site .site-main::after {
     content: "";
     position: absolute;
@@ -276,21 +284,21 @@ h6 {
     background-size: 100%;
     background-repeat: repeat-y;
   }
-  /* line 276, ../src/style.scss */
+  /* line 284, ../src/style.scss */
   .site .site-main::before {
     left: 0;
     background-image: url(https://i0.wp.com/raw.githubusercontent.com/WCLDN/2017-theme/master/images/curtain-drape-left-002.png);
   }
-  /* line 281, ../src/style.scss */
+  /* line 289, ../src/style.scss */
   .site .site-main::after {
     right: 0;
     background-image: url(https://i0.wp.com/raw.githubusercontent.com/WCLDN/2017-theme/master/images/curtain-drape-right-002.png);
   }
-  /* line 288, ../src/style.scss */
+  /* line 296, ../src/style.scss */
   .site .site-footer {
     position: relative;
   }
-  /* line 292, ../src/style.scss */
+  /* line 300, ../src/style.scss */
   .site .site-footer::before, .site .site-footer::after {
     content: "";
     position: absolute;
@@ -301,13 +309,13 @@ h6 {
     background-size: 100%;
     background-repeat: repeat-y;
   }
-  /* line 304, ../src/style.scss */
+  /* line 312, ../src/style.scss */
   .site .site-footer::before {
     left: 0;
     background-image: url(https://i0.wp.com/raw.githubusercontent.com/WCLDN/2017-theme/master/images/curtain-bottom-left-002.png);
     background-repeat: no-repeat;
   }
-  /* line 310, ../src/style.scss */
+  /* line 318, ../src/style.scss */
   .site .site-footer::after {
     right: 0;
     background-image: url(https://i0.wp.com/raw.githubusercontent.com/WCLDN/2017-theme/master/images/curtain-bottom-right-002.png);
@@ -315,56 +323,56 @@ h6 {
   }
 }
 
-/* line 323, ../src/style.scss */
+/* line 331, ../src/style.scss */
 .site-footer {
   background-color: #dbbb89;
 }
-/* line 327, ../src/style.scss */
+/* line 335, ../src/style.scss */
 .site-footer .sidebar-container {
   background: transparent;
   text-align: center;
 }
-/* line 332, ../src/style.scss */
+/* line 340, ../src/style.scss */
 .site-footer .widget-area {
   max-width: 600px;
 }
 @media (min-width: 1200px) {
-  /* line 332, ../src/style.scss */
+  /* line 340, ../src/style.scss */
   .site-footer .widget-area {
     max-width: 840px;
   }
 }
 @media (min-width: 1300px) {
-  /* line 332, ../src/style.scss */
+  /* line 340, ../src/style.scss */
   .site-footer .widget-area {
     max-width: 940px;
   }
 }
 @media (min-width: 1750px) {
-  /* line 332, ../src/style.scss */
+  /* line 340, ../src/style.scss */
   .site-footer .widget-area {
     max-width: 1040px;
   }
 }
-/* line 349, ../src/style.scss */
+/* line 357, ../src/style.scss */
 .site-footer .widget {
   position: relative !important;
   left: auto !important;
   top: auto !important;
   width: 100%;
 }
-/* line 356, ../src/style.scss */
+/* line 364, ../src/style.scss */
 .site-footer .widget_text {
   margin: 10px 0;
   text-align: center;
   color: #fff;
 }
 @media (min-width: 768px) {
-  /* line 356, ../src/style.scss */
+  /* line 364, ../src/style.scss */
   .site-footer .widget_text {
     padding: 20px 20px 60px;
   }
-  /* line 366, ../src/style.scss */
+  /* line 374, ../src/style.scss */
   .site-footer .widget_text::before, .site-footer .widget_text::after {
     content: "";
     position: absolute;
@@ -375,37 +383,37 @@ h6 {
     background-size: 100%;
     background-repeat: repeat-y;
   }
-  /* line 378, ../src/style.scss */
+  /* line 386, ../src/style.scss */
   .site-footer .widget_text::before {
     left: 0;
     background-image: url(https://i0.wp.com/raw.githubusercontent.com/WCLDN/2017-theme/master/images/text-widget-top-left-001.png);
     background-repeat: no-repeat;
   }
-  /* line 384, ../src/style.scss */
+  /* line 392, ../src/style.scss */
   .site-footer .widget_text::after {
     right: 0;
     background-image: url(https://i0.wp.com/raw.githubusercontent.com/WCLDN/2017-theme/master/images/text-widget-top-right-001.png);
     background-repeat: no-repeat;
   }
 }
-/* line 392, ../src/style.scss */
+/* line 400, ../src/style.scss */
 .site-footer .widget_text .widget-title {
   position: absolute;
   top: 25px;
   left: 0;
   right: 0;
 }
-/* line 399, ../src/style.scss */
+/* line 407, ../src/style.scss */
 .site-footer .widget_text a {
   color: #fff;
 }
-/* line 405, ../src/style.scss */
+/* line 413, ../src/style.scss */
 .site-footer .textwidget {
   padding: 40px 20px;
   background-color: #333232;
 }
 @media (min-width: 768px) {
-  /* line 412, ../src/style.scss */
+  /* line 420, ../src/style.scss */
   .site-footer .textwidget::before, .site-footer .textwidget::after {
     content: "";
     position: absolute;
@@ -415,13 +423,13 @@ h6 {
     background-size: 100%;
     background-repeat: repeat-y;
   }
-  /* line 423, ../src/style.scss */
+  /* line 431, ../src/style.scss */
   .site-footer .textwidget::before {
     left: 0;
     top: 6px;
     background-image: url(https://i0.wp.com/raw.githubusercontent.com/WCLDN/2017-theme/master/images/text-widget-left-001.png);
   }
-  /* line 429, ../src/style.scss */
+  /* line 437, ../src/style.scss */
   .site-footer .textwidget::after {
     right: 0;
     top: 6px;
@@ -429,7 +437,7 @@ h6 {
   }
 }
 @media (min-width: 768px) {
-  /* line 443, ../src/style.scss */
+  /* line 451, ../src/style.scss */
   .site-footer .curtains-bottom::before, .site-footer .curtains-bottom::after {
     content: "";
     position: absolute;
@@ -440,12 +448,12 @@ h6 {
     background-size: 100%;
     background-repeat: no-repeat;
   }
-  /* line 455, ../src/style.scss */
+  /* line 463, ../src/style.scss */
   .site-footer .curtains-bottom::before {
     left: 0;
     background-image: url(https://i0.wp.com/raw.githubusercontent.com/WCLDN/2017-theme/master/images/text-widget-bottom-left-001.png);
   }
-  /* line 460, ../src/style.scss */
+  /* line 468, ../src/style.scss */
   .site-footer .curtains-bottom::after {
     right: 0;
     background-image: url(https://i0.wp.com/raw.githubusercontent.com/WCLDN/2017-theme/master/images/text-widget-bottom-right-001.png);
