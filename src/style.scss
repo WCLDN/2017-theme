@@ -327,6 +327,42 @@ h6 {
 
 }
 
+// Styling the peculiar sidebar in the theme..
+.site-main {
+
+	.sidebar-container {
+		left: 0;
+		right: 0;
+	}
+
+	.sidebar-inner {
+		max-width: none;
+
+		@media (min-width: $screen-md-min) {
+			padding: 0 180px;
+		}
+
+		.widget-area {
+			margin-right: 0;
+
+			@media (min-width: $screen-lg-min) {
+				margin-right: 40px;
+			}
+
+			@media (min-width: $screen-xl-min) {
+				margin-right: 60px;
+			}
+
+		}
+
+	}
+
+	.widget-title {
+		font-family: $font-secondary;
+	}
+
+}
+
 // Site footer, to include the seats
 .site-footer {
 
