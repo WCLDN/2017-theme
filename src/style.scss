@@ -579,4 +579,18 @@ ul.nav-menu ul a:focus,
 	background-color: $white;
 }
 
+.table--striped {
 
+	thead th {
+		background-color: $brand-dark;
+		color: $white;
+		padding: 6px 10px 6px 0;
+	}
+
+	tbody {
+		tr:nth-child(odd) {
+			background-color: $faded;
+		}
+	}
+
+}
