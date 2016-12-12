@@ -539,36 +539,38 @@ h6 {
 	border: 4px double $brand-dark;
 }
 
-input[type=submit]{
+input[type=submit] {
 	background: $brand-primary;
 	font-weight: 800;
 	border: 1px solid $logo;
 	color: $logo;
+
 	&:hover,
 	&:focus,
 	&:active {
 		background: $logo;
 		color: $brand-primary;
 	}
+
 }
 
-.nav-menu .sub-menu, 
+.nav-menu .sub-menu,
 .nav-menu .children {
 	text-align: left;
 }
 
-ul.nav-menu ul a:hover, 
-.nav-menu ul ul a:hover, 
-ul.nav-menu ul a:focus, 
+ul.nav-menu ul a:hover,
+.nav-menu ul ul a:hover,
+ul.nav-menu ul a:focus,
 .nav-menu ul ul a:focus {
-	background:  $brand-primary;
+	background: $brand-primary;
 }
 
 #subscribe-submit {
 	margin: 0;
 }
 
-.comment-respond{
+.comment-respond {
 	background: $white;
 	border-top: 4px double $logo;
 }
