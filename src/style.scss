@@ -539,7 +539,7 @@ h6 {
 	border: 4px double $brand-dark;
 }
 
-input[type=submit] {
+[type=submit] {
 	background: $brand-primary;
 	font-weight: 800;
 	border: 1px solid $logo;
@@ -559,14 +559,14 @@ input[type=submit] {
 	text-align: left;
 }
 
-ul.nav-menu ul a:hover,
+.nav-menu ul a:hover,
 .nav-menu ul ul a:hover,
-ul.nav-menu ul a:focus,
+.nav-menu ul a:focus,
 .nav-menu ul ul a:focus {
 	background: $brand-primary;
 }
 
-#subscribe-submit {
+.jetpack_subscription_widget form p:last-of-type {
 	margin: 0;
 }
 
