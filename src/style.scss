@@ -600,7 +600,6 @@ button,
 select,
 input,
 textarea {
-	border: 2px solid $brand-primary-light;
 	font-family: inherit;
 	padding: 5px;
 }
@@ -611,10 +610,10 @@ textarea {
 	color: inherit;
 
 	&:focus {
-  		border-color: $brand-secondary;
-  		outline: none;
+		border-color: $brand-secondary;
+		outline: none;
 	}
-  
+
 }
 
 .comment-respond {
