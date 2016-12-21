@@ -1,8 +1,45 @@
 @import "variables";
 
 body {
+	position: relative;
 	background-color: $brand-background;
 	font-family: $font-primary;
+
+	&::after {
+		content: "";
+		display: block;
+		width: 100%;
+		height: 150px;
+		margin: 0 auto;
+		background-image: url(#{$assets-url}/images/theatre-seats-004.png);
+		background-repeat: repeat-x;
+		background-size: auto 100%;
+		background-position: bottom;
+
+		@media (min-width: $screen-sm-min) {
+			height: 200px;
+		}
+
+		@media (min-width: $screen-md-min) {
+			height: 250px;
+		}
+
+		@media (min-width: $screen-lg-min) {
+			height: 300px;
+		}
+
+	}
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: $font-secondary;
+	font-weight: 600;
 }
 
 // Site Header, to include the top of the stage curtains
@@ -24,26 +61,49 @@ body {
 	}
 
 	h1 {
+		height: 3.5rem;
+		margin: 0 auto;
+		font-size: 0;
 		padding: 0;
-		font: 600 normal 1.5rem $font-secondary;
+		font-weight: 600;
+		font-variant: normal;
+		font-style: normal;
+		font-family: $font-secondary;
 
-		@media (min-width: $screen-sm-min) {
-			font-size: 2rem;
+		&::before {
+			content: "WordCamp ";
+			color: $logo;
 		}
 
-		@media (min-width: $screen-md-min) {
-			font-size: 3rem;
+		&::after {
+			content: "London 2017";
 		}
 
-		@media (min-width: $screen-lg-min) {
-			font-size: 3.5rem;
-		}
+		&::before,
+		&::after {
+			font-size: 1.5rem;
 
+			@media (min-width: $screen-sm-min) {
+				font-size: 2rem;
+			}
+
+			@media (min-width: $screen-md-min) {
+				font-size: 3rem;
+			}
+
+			@media (min-width: $screen-lg-min) {
+				font-size: 3.5rem;
+			}
+		}
 	}
 
 	h2 {
-		font: 400 normal 1rem $font-secondary;
-		color: $brand-dark;
+		font-weight: 400;
+		font-variant: normal;
+		font-style: normal;
+		font-size: 1rem;
+		font-family: $font-secondary;
+		color: $white;
 
 		// This needs to be done to ensure the date shows on mobile
 		clip: initial;
@@ -75,7 +135,7 @@ body {
 			width: 60px;
 			height: 60px;
 			margin: 0 auto 10px;
-			background-image: url(#{$assets-url}/images/wordcamp-website-logo-001.png);
+			background-image: url(#{$assets-url}/images/wordcamp-website-logo-002.png);
 			background-repeat: no-repeat;
 			background-size: 100%;
 
@@ -99,7 +159,17 @@ body {
 			}
 
 		}
+	}
 
+	// Hiding the search in the navigation bar, as it will be included in the sidebar instead.
+	.search-form {
+		display: none;
+	}
+
+	// Override overly specific TwentyThirteen styles
+	.skip-link.skip-link:focus {
+		color: $brand-primary;
+		top: -2px;
 	}
 
 	.menu-toggle {
@@ -187,11 +257,11 @@ body {
 		// Change the curtain tops out for those with a shadow now that we have more room
 		@media (min-width: $screen-lg-min) {
 			&::before {
-				background-image: url(#{$assets-url}/images/curtain-left-001.png);
+				background-image: url(#{$assets-url}/images/curtain-left-002.png);
 			}
 
 			&::after {
-				background-image: url(#{$assets-url}/images/curtain-right-001.png);
+				background-image: url(#{$assets-url}/images/curtain-right-002.png);
 			}
 		}
 
@@ -209,6 +279,8 @@ body {
 
 		.site-main {
 
+			padding: 0 160px;
+
 			&::before,
 			&::after {
 				content: "";
@@ -223,12 +295,12 @@ body {
 
 			&::before {
 				left: 0;
-				background-image: url(#{$assets-url}/images/curtain-drape-left-001.png);
+				background-image: url(#{$assets-url}/images/curtain-drape-left-002.png);
 			}
 
 			&::after {
 				right: 0;
-				background-image: url(#{$assets-url}/images/curtain-drape-right-001.png);
+				background-image: url(#{$assets-url}/images/curtain-drape-right-002.png);
 			}
 
 		}
@@ -251,13 +323,13 @@ body {
 
 			&::before {
 				left: 0;
-				background-image: url(#{$assets-url}/images/curtain-bottom-left-001.png);
+				background-image: url(#{$assets-url}/images/curtain-bottom-left-002.png);
 				background-repeat: no-repeat;
 			}
 
 			&::after {
 				right: 0;
-				background-image: url(#{$assets-url}/images/curtain-bottom-right-001.png);
+				background-image: url(#{$assets-url}/images/curtain-bottom-right-002.png);
 				background-repeat: no-repeat;
 			}
 
@@ -265,11 +337,263 @@ body {
 
 	}
 
+	.entry-title {
+		font-weight: 600;
+	}
+
+}
+
+// Styling the peculiar sidebar in the theme..
+.site-main {
+
+	.sidebar-container {
+		left: 0;
+		right: 0;
+	}
+
+	.sidebar-inner {
+		max-width: none;
+
+		@media (min-width: $screen-md-min) {
+			padding: 0 180px;
+		}
+
+		.widget-area {
+			margin-right: 0;
+
+			@media (min-width: $screen-lg-min) {
+				margin-right: 40px;
+			}
+
+			@media (min-width: $screen-xxl-min) {
+				margin-right: 60px;
+			}
+
+		}
+
+	}
+
+	.widget-title {
+		font-family: $font-secondary;
+	}
+
 }
 
 // Site footer, to include the seats
 .site-footer {
+
 	background-color: $brand-background;
+
+	.sidebar-container {
+		background: transparent;
+		text-align: center;
+	}
+
+	// Have had to be more specific here to override some twentythirteen styles.
+	.sidebar & .widget-area {
+		max-width: 600px;
+		left: auto;
+
+		@media (min-width: $screen-lg-min) {
+			max-width: 840px;
+		}
+
+		@media (min-width: $screen-xl-min) {
+			max-width: 940px;
+		}
+
+		@media (min-width: $screen-xxl-min) {
+			max-width: 1040px;
+		}
+
+	}
+
+	.widget {
+		position: relative !important;
+		left: auto !important;
+		top: auto !important;
+		width: 100% !important;
+		margin: 0 auto;
+		float: none;
+	}
+
+	.widget_text {
+		margin: 10px 0;
+		text-align: center;
+		color: $white;
+
+		// Only add the curtains on screens that are large enough
+		@media (min-width: $screen-sm-min) {
+
+			padding: 20px 20px 60px;
+
+			&::before,
+			&::after {
+				content: "";
+				position: absolute;
+				top: 0;
+				display: block;
+				width: 80px;
+				height: 8px;
+				background-size: 100%;
+				background-repeat: repeat-y;
+			}
+
+			&::before {
+				left: 0;
+				background-image: url(#{$assets-url}/images/text-widget-top-left-001.png);
+				background-repeat: no-repeat;
+			}
+
+			&::after {
+				right: 0;
+				background-image: url(#{$assets-url}/images/text-widget-top-right-001.png);
+				background-repeat: no-repeat;
+			}
+
+		}
+
+		.widget-title {
+			position: absolute;
+			top: 25px;
+			left: 0;
+			right: 0;
+		}
+
+		a {
+			color: $white;
+		}
+
+	}
+
+	.textwidget {
+		padding: 40px 20px;
+		background-color: $brand-secondary;
+
+		// Only add the curtains on screens that are large enough
+		@media (min-width: $screen-sm-min) {
+
+			&::before,
+			&::after {
+				content: "";
+				position: absolute;
+				display: block;
+				bottom: 60px;
+				width: 80px;
+				background-size: 100%;
+				background-repeat: repeat-y;
+			}
+
+			&::before {
+				left: 0;
+				top: 6px;
+				background-image: url(#{$assets-url}/images/text-widget-left-001.png);
+			}
+
+			&::after {
+				right: 0;
+				top: 6px;
+				background-image: url(#{$assets-url}/images/text-widget-right-001.png);
+			}
+
+		}
+
+	}
+
+	.curtains-bottom {
+
+		@media (min-width: $screen-sm-min) {
+
+			&::before,
+			&::after {
+				content: "";
+				position: absolute;
+				display: block;
+				bottom: 0;
+				width: 80px;
+				height: 60px;
+				background-size: 100%;
+				background-repeat: no-repeat;
+			}
+
+			&::before {
+				left: 0;
+				background-image: url(#{$assets-url}/images/text-widget-bottom-left-001.png);
+			}
+
+			&::after {
+				right: 0;
+				background-image: url(#{$assets-url}/images/text-widget-bottom-right-001.png);
+			}
+
+		}
+
+	}
+
+	.site-info {
+		min-height: 110px;
+
+		a {
+			display: none;
+		}
+	}
+
+}
+
+.widget {
+	background-color: $white;
+	border: 4px double $brand-dark;
+}
+
+[type=submit] {
+	background: $brand-primary;
+	font-weight: 800;
+	border: 1px solid $logo;
+	color: $logo;
+
+	&:hover,
+	&:focus,
+	&:active {
+		background: $logo;
+		color: $brand-primary;
+	}
+
+}
+
+.nav-menu .sub-menu,
+.nav-menu .children {
+	text-align: left;
+}
+
+.nav-menu ul a:hover,
+.nav-menu ul ul a:hover,
+.nav-menu ul a:focus,
+.nav-menu ul ul a:focus {
+	background: $brand-primary;
+}
+
+.nav-menu .sub-menu {
+	border: 0;
+}
+
+.toggled-on .nav-menu li > ul {
+	border: 0;
+	text-align: center;
+	margin: 0;
+
+	a {
+		color: $white;
+	}
+
+}
+
+.toggled-on .nav-menu li:hover > a,
+.toggled-on .nav-menu .children a {
+	color: $white;
+}
+
+.jetpack_subscription_widget form p:last-of-type {
+	margin: 0;
 }
 
 button,
@@ -290,4 +614,30 @@ textarea {
   		border-color: $brand-secondary;
   		outline: none;
 	}
+  
+}
+
+.comment-respond {
+	background: $white;
+	border-top: 4px double $logo;
+}
+
+.page-header {
+	background-color: $white;
+}
+
+.table--striped {
+
+	thead th {
+		background-color: $brand-dark;
+		color: $white;
+		padding: 6px 10px 6px 0;
+	}
+
+	tbody {
+		tr:nth-child(odd) {
+			background-color: $faded;
+		}
+	}
+
 }
