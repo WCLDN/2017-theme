@@ -596,6 +596,27 @@ h6 {
 	margin: 0;
 }
 
+button,
+select,
+input,
+textarea {
+	border: 2px solid $brand-primary-light;
+	font-family: inherit;
+	padding: 5px;
+}
+
+input,
+select,
+textarea {
+	color: inherit;
+
+	&:focus {
+  		border-color: $brand-secondary;
+  		outline: none;
+	}
+  
+}
+
 .comment-respond {
 	background: $white;
 	border-top: 4px double $logo;
