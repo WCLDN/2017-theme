@@ -584,18 +584,17 @@ button,
 select,
 input,
 textarea {
-  border: 2px solid #4f483e;
   font-family: inherit;
   padding: 5px;
 }
 
-/* line 608, ../src/style.scss */
+/* line 607, ../src/style.scss */
 input,
 select,
 textarea {
   color: inherit;
 }
-/* line 613, ../src/style.scss */
+/* line 612, ../src/style.scss */
 input:focus,
 select:focus,
 textarea:focus {
@@ -603,24 +602,24 @@ textarea:focus {
   outline: none;
 }
 
-/* line 620, ../src/style.scss */
+/* line 619, ../src/style.scss */
 .comment-respond {
   background: #fff;
   border-top: 4px double #ffcd06;
 }
 
-/* line 625, ../src/style.scss */
+/* line 624, ../src/style.scss */
 .page-header {
   background-color: #fff;
 }
 
-/* line 631, ../src/style.scss */
+/* line 630, ../src/style.scss */
 .table--striped thead th {
   background-color: #27211f;
   color: #fff;
   padding: 6px 10px 6px 0;
 }
-/* line 638, ../src/style.scss */
+/* line 637, ../src/style.scss */
 .table--striped tbody tr:nth-child(odd) {
   background-color: rgba(255, 206, 1, 0.3);
 }
