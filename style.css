@@ -641,4 +641,9 @@ textarea:focus {
   font-weight: bold;
 }
 
+/* line 660, ../src/style.scss */
+article img {
+  border: 5px double #27211f;
+}
+
 /*# sourceMappingURL=style.css.map */
