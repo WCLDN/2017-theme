@@ -566,6 +566,22 @@ h6 {
 	background: $brand-primary;
 }
 
+.toggled-on .nav-menu li > ul {
+	border: 0;
+	text-align: center;
+	margin: 0;
+
+	a {
+		color: $white;
+	}
+
+}
+
+.toggled-on .nav-menu li:hover > a,
+.toggled-on .nav-menu .children a {
+	color: $white;
+}
+
 .jetpack_subscription_widget form p:last-of-type {
 	margin: 0;
 }
