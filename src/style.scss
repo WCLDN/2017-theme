@@ -566,6 +566,10 @@ h6 {
 	background: $brand-primary;
 }
 
+.nav-menu .sub-menu {
+	border: 0;
+}
+
 .toggled-on .nav-menu li > ul {
 	border: 0;
 	text-align: center;
