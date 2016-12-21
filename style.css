@@ -624,4 +624,21 @@ textarea:focus {
   background-color: rgba(255, 206, 1, 0.3);
 }
 
+/* line 644, ../src/style.scss */
+.subtitle {
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* line 650, ../src/style.scss */
+.lead {
+  font-size: 1.4rem;
+}
+
+/* line 654, ../src/style.scss */
+.highlight {
+  font-weight: bold;
+}
+
 /*# sourceMappingURL=style.css.map */
