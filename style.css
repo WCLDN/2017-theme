@@ -521,14 +521,14 @@ h6 {
 }
 
 /* line 542, ../src/style.scss */
-input[type=submit] {
+[type=submit] {
   background: #a61f23;
   font-weight: 800;
   border: 1px solid #ffcd06;
   color: #ffcd06;
 }
 /* line 548, ../src/style.scss */
-input[type=submit]:hover, input[type=submit]:focus, input[type=submit]:active {
+[type=submit]:hover, [type=submit]:focus, [type=submit]:active {
   background: #ffcd06;
   color: #a61f23;
 }
@@ -540,36 +540,58 @@ input[type=submit]:hover, input[type=submit]:focus, input[type=submit]:active {
 }
 
 /* line 562, ../src/style.scss */
-ul.nav-menu ul a:hover,
+.nav-menu ul a:hover,
 .nav-menu ul ul a:hover,
-ul.nav-menu ul a:focus,
+.nav-menu ul a:focus,
 .nav-menu ul ul a:focus {
   background: #a61f23;
 }
 
 /* line 569, ../src/style.scss */
-#subscribe-submit {
-  margin: 0;
+.nav-menu .sub-menu {
+  border: 0;
 }
 
 /* line 573, ../src/style.scss */
+.toggled-on .nav-menu li > ul {
+  border: 0;
+  text-align: center;
+  margin: 0;
+}
+/* line 578, ../src/style.scss */
+.toggled-on .nav-menu li > ul a {
+  color: #fff;
+}
+
+/* line 584, ../src/style.scss */
+.toggled-on .nav-menu li:hover > a,
+.toggled-on .nav-menu .children a {
+  color: #fff;
+}
+
+/* line 589, ../src/style.scss */
+.jetpack_subscription_widget form p:last-of-type {
+  margin: 0;
+}
+
+/* line 593, ../src/style.scss */
 .comment-respond {
   background: #fff;
   border-top: 4px double #ffcd06;
 }
 
-/* line 578, ../src/style.scss */
+/* line 598, ../src/style.scss */
 .page-header {
   background-color: #fff;
 }
 
-/* line 584, ../src/style.scss */
+/* line 604, ../src/style.scss */
 .table--striped thead th {
   background-color: #27211f;
   color: #fff;
   padding: 6px 10px 6px 0;
 }
-/* line 591, ../src/style.scss */
+/* line 611, ../src/style.scss */
 .table--striped tbody tr:nth-child(odd) {
   background-color: rgba(255, 206, 1, 0.3);
 }
