@@ -580,23 +580,47 @@ h6 {
 }
 
 /* line 599, ../src/style.scss */
+button,
+select,
+input,
+textarea {
+  border: 2px solid #4f483e;
+  font-family: inherit;
+  padding: 5px;
+}
+
+/* line 608, ../src/style.scss */
+input,
+select,
+textarea {
+  color: inherit;
+}
+/* line 613, ../src/style.scss */
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #333232;
+  outline: none;
+}
+
+/* line 620, ../src/style.scss */
 .comment-respond {
   background: #fff;
   border-top: 4px double #ffcd06;
 }
 
-/* line 604, ../src/style.scss */
+/* line 625, ../src/style.scss */
 .page-header {
   background-color: #fff;
 }
 
-/* line 610, ../src/style.scss */
+/* line 631, ../src/style.scss */
 .table--striped thead th {
   background-color: #27211f;
   color: #fff;
   padding: 6px 10px 6px 0;
 }
-/* line 617, ../src/style.scss */
+/* line 638, ../src/style.scss */
 .table--striped tbody tr:nth-child(odd) {
   background-color: rgba(255, 206, 1, 0.3);
 }
