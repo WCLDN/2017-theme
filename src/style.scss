@@ -696,7 +696,7 @@ article {
 		}
 		
 		
-		.tix-column-price::before {
+		&.tix-column-price::before {
 			content: "";
 		}
 
