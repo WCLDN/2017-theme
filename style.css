@@ -529,27 +529,26 @@ h6 {
   background-color: #fff;
   border: 4px double #27211f;
 }
-
-/* line 556, ../src/style.scss */
-[type=submit] {
+/* line 555, ../src/style.scss */
+.widget [type=submit] {
   background: #a61f23;
   font-weight: 800;
   border: 1px solid #ffcd06;
   color: #ffcd06;
 }
-/* line 562, ../src/style.scss */
-[type=submit]:hover, [type=submit]:focus, [type=submit]:active {
+/* line 561, ../src/style.scss */
+.widget [type=submit]:hover, .widget [type=submit]:focus, .widget [type=submit]:active {
   background: #ffcd06;
   color: #a61f23;
 }
 
-/* line 571, ../src/style.scss */
+/* line 572, ../src/style.scss */
 .nav-menu .sub-menu,
 .nav-menu .children {
   text-align: left;
 }
 
-/* line 576, ../src/style.scss */
+/* line 577, ../src/style.scss */
 .nav-menu ul a:hover,
 .nav-menu ul ul a:hover,
 .nav-menu ul a:focus,
@@ -557,34 +556,34 @@ h6 {
   background: #a61f23;
 }
 
-/* line 583, ../src/style.scss */
+/* line 584, ../src/style.scss */
 .nav-menu .sub-menu {
   border: 0;
 }
 
-/* line 587, ../src/style.scss */
+/* line 588, ../src/style.scss */
 .toggled-on .nav-menu li > ul {
   border: 0;
   text-align: center;
   margin: 0;
 }
-/* line 592, ../src/style.scss */
+/* line 593, ../src/style.scss */
 .toggled-on .nav-menu li > ul a {
   color: #fff;
 }
 
-/* line 598, ../src/style.scss */
+/* line 599, ../src/style.scss */
 .toggled-on .nav-menu li:hover > a,
 .toggled-on .nav-menu .children a {
   color: #fff;
 }
 
-/* line 603, ../src/style.scss */
+/* line 604, ../src/style.scss */
 .jetpack_subscription_widget form p:last-of-type {
   margin: 0;
 }
 
-/* line 607, ../src/style.scss */
+/* line 608, ../src/style.scss */
 button,
 select,
 input,
@@ -593,13 +592,13 @@ textarea {
   padding: 5px;
 }
 
-/* line 615, ../src/style.scss */
+/* line 616, ../src/style.scss */
 input,
 select,
 textarea {
   color: inherit;
 }
-/* line 620, ../src/style.scss */
+/* line 621, ../src/style.scss */
 input:focus,
 select:focus,
 textarea:focus {
@@ -607,71 +606,71 @@ textarea:focus {
   outline: none;
 }
 
-/* line 627, ../src/style.scss */
+/* line 628, ../src/style.scss */
 .comment-respond {
   background: #fff;
   border-top: 4px double #ffcd06;
 }
 
-/* line 632, ../src/style.scss */
+/* line 633, ../src/style.scss */
 .page-header {
   background-color: #fff;
 }
 
-/* line 638, ../src/style.scss */
+/* line 639, ../src/style.scss */
 .table--striped thead th {
   background-color: #27211f;
   color: #fff;
   padding: 6px 10px 6px 0;
 }
-/* line 645, ../src/style.scss */
+/* line 646, ../src/style.scss */
 .table--striped tbody tr:nth-child(odd) {
   background-color: rgba(255, 206, 1, 0.3);
 }
 
-/* line 652, ../src/style.scss */
+/* line 653, ../src/style.scss */
 .subtitle {
   font-size: 1.8rem;
   font-weight: bold;
   font-style: italic;
 }
 
-/* line 658, ../src/style.scss */
+/* line 659, ../src/style.scss */
 .lead {
   font-size: 1.4rem;
 }
 
-/* line 662, ../src/style.scss */
+/* line 663, ../src/style.scss */
 .highlight {
   font-weight: bold;
 }
 
-/* line 668, ../src/style.scss */
+/* line 669, ../src/style.scss */
 article img {
   border: 5px double #27211f;
 }
 
-/* line 676, ../src/style.scss */
+/* line 677, ../src/style.scss */
 .site-content .contact-form > div {
   padding-bottom: 20px;
 }
-/* line 679, ../src/style.scss */
+/* line 680, ../src/style.scss */
 .site-content .contact-form > div .grunion-radio-label.radio {
   font-weight: normal;
   padding-left: 10px;
 }
 
-/* line 690, ../src/style.scss */
+/* line 691, ../src/style.scss */
 .tix-js th {
   padding: 0 5px;
 }
 @media (min-width: 768px) {
-  /* line 690, ../src/style.scss */
+  /* line 691, ../src/style.scss */
   .tix-js th {
     min-width: 100px;
   }
 }
-/* line 701, ../src/style.scss */
+/* line 702, ../src/style.scss */
 .tix-js tr:not(:first-child) .tix-column-price::before {
   content: "£";
 }
