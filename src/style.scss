@@ -376,6 +376,13 @@ h6 {
 
 }
 
+.sidebar .entry-header,
+.sidebar .entry-content,
+.sidebar .entry-summary,
+.sidebar .entry-meta {
+	padding-left: 0;
+}
+
 // Site footer, to include the seats
 .site-footer {
 
