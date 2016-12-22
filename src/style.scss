@@ -697,7 +697,7 @@ article {
 
 	}
 
-	tr:not(:first-child) {
+	tr {
 
 		.tix-column-price::before {
 			content: "£";
