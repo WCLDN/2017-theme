@@ -671,7 +671,7 @@ article img {
   }
 }
 /* line 699, ../src/style.scss */
-.tix-js th .tix-column-price::before {
+.tix-js th.tix-column-price::before {
   content: "";
 }
 /* line 707, ../src/style.scss */
