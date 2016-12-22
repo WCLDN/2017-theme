@@ -380,7 +380,11 @@ h6 {
 .sidebar .entry-content,
 .sidebar .entry-summary,
 .sidebar .entry-meta {
-	padding-left: 0;
+
+	@media (min-width: $screen-lg-min) {
+		padding-left: 20px;
+	}
+
 }
 
 // Site footer, to include the seats
