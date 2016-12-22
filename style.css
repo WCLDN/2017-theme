@@ -640,4 +640,14 @@ article img {
   border: 5px double #27211f;
 }
 
+/* line 665, ../src/style.scss */
+.contact-form > div {
+  padding-bottom: 20px;
+}
+/* line 668, ../src/style.scss */
+.contact-form > div .radio {
+  font-weight: normal;
+  padding-left: 10px;
+}
+
 /*# sourceMappingURL=style.css.map */
