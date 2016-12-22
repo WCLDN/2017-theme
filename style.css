@@ -670,11 +670,15 @@ article img {
     min-width: 100px;
   }
 }
-/* line 702, ../src/style.scss */
+/* line 699, ../src/style.scss */
+.tix-js th .tix-column-price::before {
+  content: "";
+}
+/* line 707, ../src/style.scss */
 .tix-js tr .tix-column-price::before {
   content: "£";
 }
-/* line 708, ../src/style.scss */
+/* line 713, ../src/style.scss */
 .tix-js .tix-ticket-title {
   font-family: "Limelight", cursive;
   font-size: 18px;
