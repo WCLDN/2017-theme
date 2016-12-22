@@ -683,6 +683,15 @@ article {
 
 .tix-js {
 
+	th {
+		padding: 0 5px;
+
+		@media (min-width: $screen-sm-min) {
+			min-width: 100px;
+		}
+
+	}
+
 	tr:not(:first-child) {
 
 		.tix-column-price::before {
