@@ -673,3 +673,15 @@ article {
 	}
 
 }
+
+.tix-js {
+
+	tr:not(:first-child) {
+
+		.tix-column-price::before {
+			content: "£";
+		}
+
+	}
+
+}
