@@ -694,6 +694,11 @@ article {
 		@media (min-width: $screen-sm-min) {
 			min-width: 100px;
 		}
+		
+		
+		.tix-column-price::before {
+			content: "";
+		}
 
 	}
 
