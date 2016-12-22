@@ -671,7 +671,7 @@ article img {
   }
 }
 /* line 702, ../src/style.scss */
-.tix-js tr:not(:first-child) .tix-column-price::before {
+.tix-js tr .tix-column-price::before {
   content: "£";
 }
 
