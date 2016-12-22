@@ -659,7 +659,17 @@ article img {
   padding-left: 10px;
 }
 
-/* line 688, ../src/style.scss */
+/* line 686, ../src/style.scss */
+.tix-js th {
+  padding: 0 5px;
+}
+@media (min-width: 768px) {
+  /* line 686, ../src/style.scss */
+  .tix-js th {
+    min-width: 100px;
+  }
+}
+/* line 697, ../src/style.scss */
 .tix-js tr:not(:first-child) .tix-column-price::before {
   content: "£";
 }
