@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /**
  * DO NOT EDIT THIS LINE.
  */
@@ -648,6 +649,11 @@ article img {
 .contact-form > div .radio {
   font-weight: normal;
   padding-left: 10px;
+}
+
+/* line 681, ../src/style.scss */
+.tix-js tr:not(:first-child) .tix-column-price::before {
+  content: "£";
 }
 
 /*# sourceMappingURL=style.css.map */
