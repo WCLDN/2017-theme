@@ -674,5 +674,10 @@ article img {
 .tix-js tr .tix-column-price::before {
   content: "£";
 }
+/* line 708, ../src/style.scss */
+.tix-js .tix-ticket-title {
+  font-family: "Limelight", cursive;
+  font-size: 18px;
+}
 
 /*# sourceMappingURL=style.css.map */
