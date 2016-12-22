@@ -715,4 +715,9 @@ article {
 		font-family: "Limelight", cursive;
 		font-size: 18px;
 	}
+	
+	.tix-ticket-633 .tix-column-price::before {
+		content: "";
+		display:none;
+	}
 }
