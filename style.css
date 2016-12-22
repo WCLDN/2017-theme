@@ -684,5 +684,10 @@ article img {
   font-family: "Limelight", cursive;
   font-size: 18px;
 }
+/* line 719, ../src/style.scss */
+.tix-js .tix-ticket-633 .tix-column-price::before {
+  content: "";
+  display: none;
+}
 
 /*# sourceMappingURL=style.css.map */
