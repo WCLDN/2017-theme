@@ -546,6 +546,21 @@ h6 {
 		}
 	}
 
+	.wcb_widget_sponsors {
+		text-align: center;
+		border: 0;
+		color: $brand-dark;
+
+		.widget-title {
+			color: $brand-dark;
+		}
+
+		.sponsor-logo {
+			display: inline-block;
+		}
+
+	}
+
 }
 
 .widget {
