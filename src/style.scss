@@ -694,11 +694,11 @@ article {
 		@media (min-width: $screen-sm-min) {
 			min-width: 100px;
 		}
-		
-		
+
+
 		&.tix-column-price::before {
 			content: "";
-			display:none;
+			display: none;
 		}
 
 	}
@@ -710,14 +710,14 @@ article {
 		}
 
 	}
-	
+
 	.tix-ticket-title {
 		font-family: "Limelight", cursive;
 		font-size: 18px;
 	}
-	
+
 	.tix-ticket-633 .tix-column-price::before {
 		content: "";
-		display:none;
+		display: none;
 	}
 }
