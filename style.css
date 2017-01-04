@@ -704,4 +704,10 @@ article img {
   display: none;
 }
 
+/* line 742, ../src/style.scss */
+.single-wcb_sponsor .entry-thumbnail img {
+  margin: 10px 0;
+  border: 0;
+}
+
 /*# sourceMappingURL=style.css.map */
