@@ -546,17 +546,38 @@ h6 {
 		}
 	}
 
-	.wcb_widget_sponsors {
+	.widget_text:nth-of-type(1) {
 		text-align: center;
 		border: 0;
 		color: $brand-dark;
+
+		&::before,
+		&::after,
+		.textwidget::before,
+		.textwidget::after {
+			content: none;
+		}
+
+		.textwidget {
+			background: transparent;
+		}
 
 		.widget-title {
 			color: $brand-dark;
 		}
 
+		.wcorg-sponsor {
+			display: inline-block;
+			padding: 2px;
+		}
+
 		.sponsor-logo {
 			display: inline-block;
+		}
+
+		h3:not(.widget-title),
+		p {
+			display: none;
 		}
 
 	}
