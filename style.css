@@ -710,4 +710,9 @@ article img {
   border: 0;
 }
 
+/* line 749, ../src/style.scss */
+.email-only {
+  display: none !important;
+}
+
 /*# sourceMappingURL=style.css.map */
