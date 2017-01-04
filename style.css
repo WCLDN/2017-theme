@@ -524,45 +524,65 @@ h6 {
   display: none;
 }
 /* line 549, ../src/style.scss */
-.site-footer .wcb_widget_sponsors {
+.site-footer .widget_text:nth-of-type(1) {
   text-align: center;
   border: 0;
   color: #27211f;
 }
 /* line 554, ../src/style.scss */
-.site-footer .wcb_widget_sponsors .widget-title {
+.site-footer .widget_text:nth-of-type(1)::before, .site-footer .widget_text:nth-of-type(1)::after,
+.site-footer .widget_text:nth-of-type(1) .textwidget::before,
+.site-footer .widget_text:nth-of-type(1) .textwidget::after {
+  content: none;
+}
+/* line 561, ../src/style.scss */
+.site-footer .widget_text:nth-of-type(1) .textwidget {
+  background: transparent;
+}
+/* line 565, ../src/style.scss */
+.site-footer .widget_text:nth-of-type(1) .widget-title {
   color: #27211f;
 }
-/* line 558, ../src/style.scss */
-.site-footer .wcb_widget_sponsors .sponsor-logo {
+/* line 569, ../src/style.scss */
+.site-footer .widget_text:nth-of-type(1) .wcorg-sponsor {
+  display: inline-block;
+  padding: 2px;
+}
+/* line 574, ../src/style.scss */
+.site-footer .widget_text:nth-of-type(1) .sponsor-logo {
   display: inline-block;
 }
+/* line 578, ../src/style.scss */
+.site-footer .widget_text:nth-of-type(1) h3:not(.widget-title),
+.site-footer .widget_text:nth-of-type(1) p {
+  display: none;
+}
 
-/* line 566, ../src/style.scss */
+/* line 587, ../src/style.scss */
 .widget {
   background-color: #fff;
   border: 4px double #27211f;
 }
-/* line 570, ../src/style.scss */
+/* line 591, ../src/style.scss */
 .widget [type=submit] {
   background: #a61f23;
   font-weight: 800;
   border: 1px solid #ffcd06;
   color: #ffcd06;
 }
-/* line 576, ../src/style.scss */
+/* line 597, ../src/style.scss */
 .widget [type=submit]:hover, .widget [type=submit]:focus, .widget [type=submit]:active {
   background: #ffcd06;
   color: #a61f23;
 }
 
-/* line 587, ../src/style.scss */
+/* line 608, ../src/style.scss */
 .nav-menu .sub-menu,
 .nav-menu .children {
   text-align: left;
 }
 
-/* line 592, ../src/style.scss */
+/* line 613, ../src/style.scss */
 .nav-menu ul a:hover,
 .nav-menu ul ul a:hover,
 .nav-menu ul a:focus,
@@ -570,34 +590,34 @@ h6 {
   background: #a61f23;
 }
 
-/* line 599, ../src/style.scss */
+/* line 620, ../src/style.scss */
 .nav-menu .sub-menu {
   border: 0;
 }
 
-/* line 603, ../src/style.scss */
+/* line 624, ../src/style.scss */
 .toggled-on .nav-menu li > ul {
   border: 0;
   text-align: center;
   margin: 0;
 }
-/* line 608, ../src/style.scss */
+/* line 629, ../src/style.scss */
 .toggled-on .nav-menu li > ul a {
   color: #fff;
 }
 
-/* line 614, ../src/style.scss */
+/* line 635, ../src/style.scss */
 .toggled-on .nav-menu li:hover > a,
 .toggled-on .nav-menu .children a {
   color: #fff;
 }
 
-/* line 619, ../src/style.scss */
+/* line 640, ../src/style.scss */
 .jetpack_subscription_widget form p:last-of-type {
   margin: 0;
 }
 
-/* line 623, ../src/style.scss */
+/* line 644, ../src/style.scss */
 button,
 select,
 input,
@@ -606,13 +626,13 @@ textarea {
   padding: 5px;
 }
 
-/* line 631, ../src/style.scss */
+/* line 652, ../src/style.scss */
 input,
 select,
 textarea {
   color: inherit;
 }
-/* line 636, ../src/style.scss */
+/* line 657, ../src/style.scss */
 input:focus,
 select:focus,
 textarea:focus {
@@ -620,97 +640,97 @@ textarea:focus {
   outline: none;
 }
 
-/* line 643, ../src/style.scss */
+/* line 664, ../src/style.scss */
 .comment-respond {
   background: #fff;
   border-top: 4px double #ffcd06;
 }
 
-/* line 648, ../src/style.scss */
+/* line 669, ../src/style.scss */
 .page-header {
   background-color: #fff;
 }
 
-/* line 654, ../src/style.scss */
+/* line 675, ../src/style.scss */
 .table--striped thead th {
   background-color: #27211f;
   color: #fff;
   padding: 6px 10px 6px 0;
 }
-/* line 661, ../src/style.scss */
+/* line 682, ../src/style.scss */
 .table--striped tbody tr:nth-child(odd) {
   background-color: rgba(255, 206, 1, 0.3);
 }
 
-/* line 668, ../src/style.scss */
+/* line 689, ../src/style.scss */
 .subtitle {
   font-size: 1.8rem;
   font-weight: bold;
   font-style: italic;
 }
 
-/* line 674, ../src/style.scss */
+/* line 695, ../src/style.scss */
 .lead {
   font-size: 1.4rem;
 }
 
-/* line 678, ../src/style.scss */
+/* line 699, ../src/style.scss */
 .highlight {
   font-weight: bold;
 }
 
-/* line 684, ../src/style.scss */
+/* line 705, ../src/style.scss */
 article img {
   border: 5px double #27211f;
 }
 
-/* line 692, ../src/style.scss */
+/* line 713, ../src/style.scss */
 .site-content .contact-form > div {
   padding-bottom: 20px;
 }
-/* line 695, ../src/style.scss */
+/* line 716, ../src/style.scss */
 .site-content .contact-form > div .grunion-radio-label.radio {
   font-weight: normal;
   padding-left: 10px;
 }
 
-/* line 706, ../src/style.scss */
+/* line 727, ../src/style.scss */
 .tix-js th {
   padding: 0 5px;
 }
 @media (min-width: 768px) {
-  /* line 706, ../src/style.scss */
+  /* line 727, ../src/style.scss */
   .tix-js th {
     min-width: 100px;
   }
 }
-/* line 714, ../src/style.scss */
+/* line 735, ../src/style.scss */
 .tix-js th.tix-column-price::before {
   content: "";
   display: none;
 }
-/* line 723, ../src/style.scss */
+/* line 744, ../src/style.scss */
 .tix-js tr .tix-column-price::before {
   content: "£";
 }
-/* line 729, ../src/style.scss */
+/* line 750, ../src/style.scss */
 .tix-js .tix-ticket-title {
   font-family: "Limelight", cursive;
   font-size: 18px;
 }
-/* line 734, ../src/style.scss */
+/* line 755, ../src/style.scss */
 .tix-js .tix-ticket-633 .tix-column-price::before {
   content: "";
   display: none;
 }
 
-/* line 742, ../src/style.scss */
+/* line 763, ../src/style.scss */
 .single-wcb_sponsor .entry-thumbnail img {
   margin: 10px 0;
   border: 0;
 }
 
-/* line 749, ../src/style.scss */
+/* line 770, ../src/style.scss */
 .email-only {
   display: none !important;
 }
