@@ -523,32 +523,46 @@ h6 {
 .site-footer .site-info a {
   display: none;
 }
+/* line 549, ../src/style.scss */
+.site-footer .wcb_widget_sponsors {
+  text-align: center;
+  border: 0;
+  color: #27211f;
+}
+/* line 554, ../src/style.scss */
+.site-footer .wcb_widget_sponsors .widget-title {
+  color: #27211f;
+}
+/* line 558, ../src/style.scss */
+.site-footer .wcb_widget_sponsors .sponsor-logo {
+  display: inline-block;
+}
 
-/* line 551, ../src/style.scss */
+/* line 566, ../src/style.scss */
 .widget {
   background-color: #fff;
   border: 4px double #27211f;
 }
-/* line 555, ../src/style.scss */
+/* line 570, ../src/style.scss */
 .widget [type=submit] {
   background: #a61f23;
   font-weight: 800;
   border: 1px solid #ffcd06;
   color: #ffcd06;
 }
-/* line 561, ../src/style.scss */
+/* line 576, ../src/style.scss */
 .widget [type=submit]:hover, .widget [type=submit]:focus, .widget [type=submit]:active {
   background: #ffcd06;
   color: #a61f23;
 }
 
-/* line 572, ../src/style.scss */
+/* line 587, ../src/style.scss */
 .nav-menu .sub-menu,
 .nav-menu .children {
   text-align: left;
 }
 
-/* line 577, ../src/style.scss */
+/* line 592, ../src/style.scss */
 .nav-menu ul a:hover,
 .nav-menu ul ul a:hover,
 .nav-menu ul a:focus,
@@ -556,34 +570,34 @@ h6 {
   background: #a61f23;
 }
 
-/* line 584, ../src/style.scss */
+/* line 599, ../src/style.scss */
 .nav-menu .sub-menu {
   border: 0;
 }
 
-/* line 588, ../src/style.scss */
+/* line 603, ../src/style.scss */
 .toggled-on .nav-menu li > ul {
   border: 0;
   text-align: center;
   margin: 0;
 }
-/* line 593, ../src/style.scss */
+/* line 608, ../src/style.scss */
 .toggled-on .nav-menu li > ul a {
   color: #fff;
 }
 
-/* line 599, ../src/style.scss */
+/* line 614, ../src/style.scss */
 .toggled-on .nav-menu li:hover > a,
 .toggled-on .nav-menu .children a {
   color: #fff;
 }
 
-/* line 604, ../src/style.scss */
+/* line 619, ../src/style.scss */
 .jetpack_subscription_widget form p:last-of-type {
   margin: 0;
 }
 
-/* line 608, ../src/style.scss */
+/* line 623, ../src/style.scss */
 button,
 select,
 input,
@@ -592,13 +606,13 @@ textarea {
   padding: 5px;
 }
 
-/* line 616, ../src/style.scss */
+/* line 631, ../src/style.scss */
 input,
 select,
 textarea {
   color: inherit;
 }
-/* line 621, ../src/style.scss */
+/* line 636, ../src/style.scss */
 input:focus,
 select:focus,
 textarea:focus {
@@ -606,85 +620,85 @@ textarea:focus {
   outline: none;
 }
 
-/* line 628, ../src/style.scss */
+/* line 643, ../src/style.scss */
 .comment-respond {
   background: #fff;
   border-top: 4px double #ffcd06;
 }
 
-/* line 633, ../src/style.scss */
+/* line 648, ../src/style.scss */
 .page-header {
   background-color: #fff;
 }
 
-/* line 639, ../src/style.scss */
+/* line 654, ../src/style.scss */
 .table--striped thead th {
   background-color: #27211f;
   color: #fff;
   padding: 6px 10px 6px 0;
 }
-/* line 646, ../src/style.scss */
+/* line 661, ../src/style.scss */
 .table--striped tbody tr:nth-child(odd) {
   background-color: rgba(255, 206, 1, 0.3);
 }
 
-/* line 653, ../src/style.scss */
+/* line 668, ../src/style.scss */
 .subtitle {
   font-size: 1.8rem;
   font-weight: bold;
   font-style: italic;
 }
 
-/* line 659, ../src/style.scss */
+/* line 674, ../src/style.scss */
 .lead {
   font-size: 1.4rem;
 }
 
-/* line 663, ../src/style.scss */
+/* line 678, ../src/style.scss */
 .highlight {
   font-weight: bold;
 }
 
-/* line 669, ../src/style.scss */
+/* line 684, ../src/style.scss */
 article img {
   border: 5px double #27211f;
 }
 
-/* line 677, ../src/style.scss */
+/* line 692, ../src/style.scss */
 .site-content .contact-form > div {
   padding-bottom: 20px;
 }
-/* line 680, ../src/style.scss */
+/* line 695, ../src/style.scss */
 .site-content .contact-form > div .grunion-radio-label.radio {
   font-weight: normal;
   padding-left: 10px;
 }
 
-/* line 691, ../src/style.scss */
+/* line 706, ../src/style.scss */
 .tix-js th {
   padding: 0 5px;
 }
 @media (min-width: 768px) {
-  /* line 691, ../src/style.scss */
+  /* line 706, ../src/style.scss */
   .tix-js th {
     min-width: 100px;
   }
 }
-/* line 699, ../src/style.scss */
+/* line 714, ../src/style.scss */
 .tix-js th.tix-column-price::before {
   content: "";
   display: none;
 }
-/* line 708, ../src/style.scss */
+/* line 723, ../src/style.scss */
 .tix-js tr .tix-column-price::before {
   content: "£";
 }
-/* line 714, ../src/style.scss */
+/* line 729, ../src/style.scss */
 .tix-js .tix-ticket-title {
   font-family: "Limelight", cursive;
   font-size: 18px;
 }
-/* line 719, ../src/style.scss */
+/* line 734, ../src/style.scss */
 .tix-js .tix-ticket-633 .tix-column-price::before {
   content: "";
   display: none;
