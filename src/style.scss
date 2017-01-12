@@ -782,3 +782,24 @@ article {
 .email-only {
 	display: none !important;
 }
+
+.site-content .wcorg-sponsors {
+
+	img {
+		border: 0;
+	}
+
+	.wcorg-sponsor {
+		padding: 20px 0;
+
+		h3 {
+			display: none;
+		}
+
+	}
+
+	.wcorg-sponsor-level-boxes {
+		padding-bottom: 20px;
+	}
+
+}
