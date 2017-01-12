@@ -748,4 +748,21 @@ article img {
   display: none !important;
 }
 
+/* line 788, ../src/style.scss */
+.site-content .wcorg-sponsors img {
+  border: 0;
+}
+/* line 792, ../src/style.scss */
+.site-content .wcorg-sponsors .wcorg-sponsor {
+  padding: 20px 0;
+}
+/* line 795, ../src/style.scss */
+.site-content .wcorg-sponsors .wcorg-sponsor h3 {
+  display: none;
+}
+/* line 801, ../src/style.scss */
+.site-content .wcorg-sponsors .wcorg-sponsor-level-boxes {
+  padding-bottom: 20px;
+}
+
 /*# sourceMappingURL=style.css.map */
