@@ -387,6 +387,13 @@ h6 {
 
 }
 
+// Sidebar height assumption to fix mad overflow theme limitation
+.sidebar .site > .site-main {
+	@media (min-width: $screen-md-min) {
+		min-height: 1400px;
+	}
+}
+
 // Site footer, to include the seats
 .site-footer {
 
