@@ -553,7 +553,7 @@ h6 {
 /* line 576, ../src/style.scss */
 .site-footer .widget_text:nth-of-type(1) .wcorg-sponsor {
   display: inline-block;
-  padding: 2px;
+  padding: 2px 10px;
 }
 /* line 581, ../src/style.scss */
 .site-footer .widget_text:nth-of-type(1) .sponsor-logo {
