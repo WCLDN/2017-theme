@@ -571,19 +571,19 @@ h6 {
   }
   /* line 598, ../src/style.scss */
   .site-footer .wcorg-sponsor-level-stalls .wcorg-sponsor {
-    max-width: 300px;
+    max-width: 200px;
   }
   /* line 602, ../src/style.scss */
   .site-footer .wcorg-sponsor-level-dress-circle .wcorg-sponsor {
-    max-width: 250px;
+    max-width: 175px;
   }
   /* line 606, ../src/style.scss */
   .site-footer .wcorg-sponsor-level-grand-circle .wcorg-sponsor {
-    max-width: 200px;
+    max-width: 125px;
   }
   /* line 610, ../src/style.scss */
   .site-footer .wcorg-sponsor-level-balcony .wcorg-sponsor {
-    max-width: 150px;
+    max-width: 100px;
   }
 }
 
