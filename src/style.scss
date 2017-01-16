@@ -589,6 +589,30 @@ h6 {
 
 	}
 
+	@media (min-width: $screen-sm-min) {
+
+		.wcorg-sponsor-level-boxes .wcorg-sponsor {
+			max-width: 350px;
+		}
+
+		.wcorg-sponsor-level-stalls .wcorg-sponsor {
+			max-width: 300px;
+		}
+
+		.wcorg-sponsor-level-dress-circle .wcorg-sponsor {
+			max-width: 250px;
+		}
+
+		.wcorg-sponsor-level-grand-circle .wcorg-sponsor {
+			max-width: 200px;
+		}
+
+		.wcorg-sponsor-level-balcony .wcorg-sponsor {
+			max-width: 150px;
+		}
+
+	}
+
 }
 
 .widget {
