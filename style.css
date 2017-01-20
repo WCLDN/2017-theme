@@ -757,32 +757,33 @@ article img {
 .single-wcb_sponsor .entry-thumbnail img {
   margin: 10px 0;
   border: 0;
+  display: none;
 }
 
-/* line 801, ../src/style.scss */
+/* line 802, ../src/style.scss */
 .wcorg-organizer-description img {
   float: right;
   margin: 0 0 20px 20px;
 }
 
-/* line 806, ../src/style.scss */
+/* line 807, ../src/style.scss */
 .email-only {
   display: none !important;
 }
 
-/* line 812, ../src/style.scss */
+/* line 813, ../src/style.scss */
 .site-content .wcorg-sponsors img {
   border: 0;
 }
-/* line 816, ../src/style.scss */
+/* line 817, ../src/style.scss */
 .site-content .wcorg-sponsors .wcorg-sponsor {
   padding: 20px 0;
 }
-/* line 819, ../src/style.scss */
+/* line 820, ../src/style.scss */
 .site-content .wcorg-sponsors .wcorg-sponsor h3 {
   display: none;
 }
-/* line 825, ../src/style.scss */
+/* line 826, ../src/style.scss */
 .site-content .wcorg-sponsors .wcorg-sponsor-level-boxes {
   padding-bottom: 20px;
 }
