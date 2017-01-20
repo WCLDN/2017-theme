@@ -387,14 +387,14 @@ h6 {
 
 }
 
-.entry-content img.alignright, 
-.entry-content .wp-caption.alignright, 
-.entry-content img.alignleft, 
+.entry-content a .alignright,
+.entry-content .wp-caption.alignright,
+.entry-content a .alignleft,
 .entry-content .wp-caption.alignleft {
 	margin-right: 0;
 }
 
-.no-border: {
+.no-border {
 	border: 0;
 }
 
