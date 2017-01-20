@@ -388,10 +388,13 @@ h6 {
 }
 
 .entry-content a .alignright,
-.entry-content .wp-caption.alignright,
+.entry-content .wp-caption.alignright, {
+	margin-right: 0;
+}
+
 .entry-content a .alignleft,
 .entry-content .wp-caption.alignleft {
-	margin-right: 0;
+	margin-left: 0;
 }
 
 .no-border {
