@@ -387,6 +387,17 @@ h6 {
 
 }
 
+.entry-content img.alignright, 
+.entry-content .wp-caption.alignright, 
+.entry-content img.alignleft, 
+.entry-content .wp-caption.alignleft {
+	margin-right: 0;
+}
+
+.no-border: {
+	border: 0;
+}
+
 // Sidebar height assumption to fix mad overflow theme limitation
 .sidebar .site > .site-main {
 	@media (min-width: $screen-md-min) {
