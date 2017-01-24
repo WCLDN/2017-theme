@@ -805,4 +805,14 @@ article img {
   padding-bottom: 20px;
 }
 
+/* line 846, ../src/style.scss */
+.tix-attendee-url {
+  display: none;
+}
+
+/* line 851, ../src/style.scss */
+.tix-attendee-url:nth-of-type(1) {
+  display: inline;
+}
+
 /*# sourceMappingURL=style.css.map */
