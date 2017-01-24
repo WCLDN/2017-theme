@@ -806,12 +806,8 @@ article img {
 }
 
 /* line 846, ../src/style.scss */
-#tix-attendees .tix-field.tix-attendee-url {
+#tix-attendees a[href*=".png"] {
   display: none;
-}
-/* line 848, ../src/style.scss */
-#tix-attendees .tix-field.tix-attendee-url:nth-of-type(1) {
-  display: inline;
 }
 
 /*# sourceMappingURL=style.css.map */
