@@ -806,12 +806,11 @@ article img {
 }
 
 /* line 846, ../src/style.scss */
-.tix-attendee-url {
+#tix-attendees .tix-field.tix-attendee-url {
   display: none;
 }
-
-/* line 851, ../src/style.scss */
-.tix-attendee-url:nth-of-type(1) {
+/* line 848, ../src/style.scss */
+#tix-attendees .tix-field.tix-attendee-url:nth-of-type(1) {
   display: inline;
 }
 
