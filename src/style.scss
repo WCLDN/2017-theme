@@ -843,11 +843,9 @@ article {
 
 }
 
-.tix-attendee-url{
+#tix-attendees .tix-field.tix-attendee-url{
 	display: none;
-	
-}
-
-.tix-attendee-url:nth-of-type(1){
-	display: inline;	
+	&:nth-of-type(1){
+		display: inline;	
+	}	
 }
