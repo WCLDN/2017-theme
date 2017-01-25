@@ -819,7 +819,7 @@ article img {
 }
 
 /* line 856, ../src/style.scss */
-.wcorg-sponsor-description > a:first-of-type {
+.site-content .wcorg-sponsor-description > a:first-of-type {
   display: none;
   visibility: hidden;
 }
