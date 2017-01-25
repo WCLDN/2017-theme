@@ -836,11 +836,15 @@ article img {
   margin-right: auto;
 }
 /* line 873, ../src/style.scss */
+.site-content .wcorg-sponsor-level-dress-circle img {
+  width: 40%;
+}
+/* line 878, ../src/style.scss */
 .site-content .wcorg-sponsor-level-grand-circle .wcorg-sponsor {
   display: inline-block;
   width: 49%;
 }
-/* line 878, ../src/style.scss */
+/* line 883, ../src/style.scss */
 .site-content .wcorg-sponsor-level-balcony .wcorg-sponsor {
   display: inline-block;
   width: 24%;
