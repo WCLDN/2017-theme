@@ -818,4 +818,10 @@ article img {
   padding-left: 0;
 }
 
+/* line 856, ../src/style.scss */
+.wcorg-sponsor-description > a:first-of-type {
+  display: none;
+  visibility: hidden;
+}
+
 /*# sourceMappingURL=style.css.map */
