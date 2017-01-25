@@ -818,34 +818,30 @@ article img {
   padding-left: 0;
 }
 
-/* line 856, ../src/style.scss */
+/* line 857, ../src/style.scss */
 .site-content .wcorg-sponsor-description > a:first-of-type {
   display: none;
   visibility: hidden;
 }
-
 /* line 861, ../src/style.scss */
-.wcorg-sponsor-level-boxes img {
+.site-content .wcorg-sponsor-level-boxes img {
   display: block;
   width: 100%;
 }
-
 /* line 866, ../src/style.scss */
-.wcorg-sponsor-level-stalls img {
+.site-content .wcorg-sponsor-level-stalls img {
   display: block;
   width: 50%;
   margin-left: auto;
   margin-right: auto;
 }
-
 /* line 873, ../src/style.scss */
-.wcorg-sponsor-level-grand-circle .wcorg-sponsor {
+.site-content .wcorg-sponsor-level-grand-circle .wcorg-sponsor {
   display: inline-block;
   width: 49%;
 }
-
 /* line 878, ../src/style.scss */
-.wcorg-sponsor-level-balcony .wcorg-sponsor {
+.site-content .wcorg-sponsor-level-balcony .wcorg-sponsor {
   display: inline-block;
   width: 24%;
   padding-right: 2px;
