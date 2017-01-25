@@ -825,12 +825,26 @@ article img {
 }
 
 /* line 861, ../src/style.scss */
+.wcorg-sponsor-level-boxes img {
+  display: block;
+  width: 100%;
+}
+
+/* line 866, ../src/style.scss */
+.wcorg-sponsor-level-dress-circle img {
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 873, ../src/style.scss */
 .wcorg-sponsor-level-grand-circle .wcorg-sponsor {
   display: inline-block;
   width: 49%;
 }
 
-/* line 866, ../src/style.scss */
+/* line 878, ../src/style.scss */
 .wcorg-sponsor-level-balcony .wcorg-sponsor {
   display: inline-block;
   width: 24%;
