@@ -810,4 +810,9 @@ article img {
   display: none;
 }
 
+/* line 849, ../src/style.scss */
+#tix-attendees ul.tix-attendee-list {
+  margin: 0;
+}
+
 /*# sourceMappingURL=style.css.map */
