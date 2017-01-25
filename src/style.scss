@@ -853,30 +853,33 @@ article {
 	padding-left: 0;
 }
 
-.site-content .wcorg-sponsor-description > a:first-of-type {
-	display: none;
-	visibility: hidden;
+.site-content {
+	.wcorg-sponsor-description > a:first-of-type {
+		display: none;
+		visibility: hidden;
+	}
+	.wcorg-sponsor-level-boxes img {
+		display: block;
+		width: 100%;
+	}
+
+	.wcorg-sponsor-level-stalls img {
+		display: block;
+		width: 50%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.wcorg-sponsor-level-grand-circle .wcorg-sponsor{
+		display: inline-block;
+		width: 49%;
+	}
+
+	.wcorg-sponsor-level-balcony .wcorg-sponsor{
+		display: inline-block;
+		width: 24%;
+		padding-right: 2px;
+	}
 }
 
-.wcorg-sponsor-level-boxes img {
-	display: block;
-	width: 100%;
-}
 
-.wcorg-sponsor-level-stalls img {
-	display: block;
-	width: 50%;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.wcorg-sponsor-level-grand-circle .wcorg-sponsor{
-	display: inline-block;
-	width: 49%;
-}
-
-.wcorg-sponsor-level-balcony .wcorg-sponsor{
-	display: inline-block;
-	width: 24%;
-	padding-right: 2px;
-}
