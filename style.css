@@ -815,6 +815,7 @@ article img {
 /* line 851, ../src/style.scss */
 #tix-attendees ul.tix-attendee-list {
   margin: 0;
+  padding-left: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
