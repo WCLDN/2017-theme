@@ -806,11 +806,13 @@ article img {
 }
 
 /* line 846, ../src/style.scss */
-#tix-attendees a[href*=".png"] {
+#tix-attendees a[href*=".png"],
+#tix-attendees a[href*=".jpg"],
+#tix-attendees a[href*=".gif"] {
   display: none;
 }
 
-/* line 849, ../src/style.scss */
+/* line 851, ../src/style.scss */
 #tix-attendees ul.tix-attendee-list {
   margin: 0;
 }
