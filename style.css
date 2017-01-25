@@ -833,7 +833,8 @@ article img {
 /* line 866, ../src/style.scss */
 .wcorg-sponsor-level-balcony .wcorg-sponsor {
   display: inline-block;
-  width: 19%;
+  width: 24%;
+  padding-right: 2px;
 }
 
 /*# sourceMappingURL=style.css.map */
