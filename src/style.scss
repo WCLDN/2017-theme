@@ -843,7 +843,9 @@ article {
 
 }
 
-#tix-attendees a[href*=".png"]{
+#tix-attendees a[href*=".png"],
+#tix-attendees a[href*=".jpg"],
+#tix-attendees a[href*=".gif"]{
 	display: none;
 }
 #tix-attendees ul.tix-attendee-list{
