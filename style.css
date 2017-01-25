@@ -824,4 +824,10 @@ article img {
   visibility: hidden;
 }
 
+/* line 861, ../src/style.scss */
+.wcorg-sponsor-level-grand-circle .wcorg-sponsor {
+  display: inline-block;
+  width: 49%;
+}
+
 /*# sourceMappingURL=style.css.map */
