@@ -829,12 +829,28 @@ article {
 	display: none;
 }
 
+.wcpt-schedule td {
+	vertical-align: top;
+}
+
+.wcpt-session-title {
+	font-size: 110%;
+	font-weight: 600;
+	line-height: 1.4;
+	margin-bottom: 0.5em;
+	display: inline-block;
+}
+
+.wcpt-session-speakers {
+	display: block;
+	line-height: 1.4;
+}
+
 .email-only {
 	display: none !important;
 }
 
 .site-content .wcorg-sponsors {
-
 	img {
 		border: 0;
 	}
@@ -851,7 +867,6 @@ article {
 	.wcorg-sponsor-level-boxes {
 		padding-bottom: 20px;
 	}
-
 }
 
 #tix-attendees a[href*=".png"],
