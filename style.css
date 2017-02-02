@@ -793,67 +793,87 @@ article img {
 }
 
 /* line 832, ../src/style.scss */
+.wcpt-schedule td {
+  vertical-align: top;
+}
+
+/* line 836, ../src/style.scss */
+.wcpt-session-title {
+  font-size: 110%;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 0.5em;
+  display: inline-block;
+}
+
+/* line 844, ../src/style.scss */
+.wcpt-session-speakers {
+  display: block;
+  line-height: 1.4;
+}
+
+/* line 849, ../src/style.scss */
 .email-only {
   display: none !important;
 }
 
-/* line 838, ../src/style.scss */
+/* line 854, ../src/style.scss */
 .site-content .wcorg-sponsors img {
   border: 0;
 }
-/* line 842, ../src/style.scss */
+/* line 858, ../src/style.scss */
 .site-content .wcorg-sponsors .wcorg-sponsor {
   padding: 20px 0;
 }
-/* line 845, ../src/style.scss */
+/* line 861, ../src/style.scss */
 .site-content .wcorg-sponsors .wcorg-sponsor h3 {
   display: none;
 }
-/* line 851, ../src/style.scss */
+/* line 867, ../src/style.scss */
 .site-content .wcorg-sponsors .wcorg-sponsor-level-boxes {
   padding-bottom: 20px;
 }
 
-/* line 857, ../src/style.scss */
+/* line 872, ../src/style.scss */
 #tix-attendees a[href*=".png"],
 #tix-attendees a[href*=".jpg"],
 #tix-attendees a[href*=".gif"] {
   display: none;
 }
 
-/* line 862, ../src/style.scss */
+/* line 877, ../src/style.scss */
 #tix-attendees ul.tix-attendee-list {
   margin: 0;
   padding-left: 0;
 }
 
-/* line 868, ../src/style.scss */
+/* line 883, ../src/style.scss */
 .site-content .wcorg-sponsor-description > a:first-of-type {
   display: none;
   visibility: hidden;
 }
-/* line 872, ../src/style.scss */
+/* line 887, ../src/style.scss */
 .site-content .wcorg-sponsor-level-boxes img {
   display: block;
   width: 100%;
 }
-/* line 877, ../src/style.scss */
+/* line 892, ../src/style.scss */
 .site-content .wcorg-sponsor-level-stalls img {
   display: block;
   width: 50%;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 884, ../src/style.scss */
+/* line 899, ../src/style.scss */
 .site-content .wcorg-sponsor-level-dress-circle img {
   width: 40%;
 }
-/* line 889, ../src/style.scss */
+/* line 904, ../src/style.scss */
 .site-content .wcorg-sponsor-level-grand-circle .wcorg-sponsor {
   display: inline-block;
   width: 49%;
 }
-/* line 894, ../src/style.scss */
+/* line 909, ../src/style.scss */
 .site-content .wcorg-sponsor-level-balcony .wcorg-sponsor {
   display: inline-block;
   width: 24%;
