@@ -813,9 +813,20 @@ article {
 
 }
 
-.wcorg-organizer-description img {
-	float: right;
-	margin: 0 0 20px 20px;
+.wcorg-organizer-description,
+.wcorg-speaker-description {
+	img {
+		float: right;
+		margin: 0 0 20px 20px;
+	}
+}
+
+// Hide speakers without Gravatar images
+.wcorg-speaker-description [src*="316c856060"],
+.wcorg-speaker-description [src*="7f0aa0a14a"],
+.wcorg-speaker-description [src*="f8ee12934b"],
+.wcorg-speaker-description [src*="9e44e36ff8"] {
+	display: none;
 }
 
 .email-only {
@@ -869,7 +880,7 @@ article {
 		margin-left: auto;
 		margin-right: auto;
 	}
-	
+
 	.wcorg-sponsor-level-dress-circle img {
 		width: 40%;
 	}
