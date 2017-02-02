@@ -777,14 +777,15 @@ article img {
   display: none;
 }
 
-/* line 818, ../src/style.scss */
+/* line 819, ../src/style.scss */
 .wcorg-organizer-description img,
-.wcorg-speaker-description img {
+.wcorg-speaker-description img,
+.speaker-avatar img {
   float: right;
   margin: 0 0 20px 20px;
 }
 
-/* line 825, ../src/style.scss */
+/* line 826, ../src/style.scss */
 .wcorg-speaker-description [src*="316c856060"],
 .wcorg-speaker-description [src*="7f0aa0a14a"],
 .wcorg-speaker-description [src*="f8ee12934b"],
@@ -792,12 +793,12 @@ article img {
   display: none;
 }
 
-/* line 832, ../src/style.scss */
+/* line 833, ../src/style.scss */
 .wcpt-schedule td {
   vertical-align: top;
 }
 
-/* line 836, ../src/style.scss */
+/* line 837, ../src/style.scss */
 .wcpt-session-title {
   font-size: 110%;
   font-weight: 600;
@@ -806,74 +807,74 @@ article img {
   display: inline-block;
 }
 
-/* line 844, ../src/style.scss */
+/* line 845, ../src/style.scss */
 .wcpt-session-speakers {
   display: block;
   line-height: 1.4;
 }
 
-/* line 849, ../src/style.scss */
+/* line 850, ../src/style.scss */
 .email-only {
   display: none !important;
 }
 
-/* line 854, ../src/style.scss */
+/* line 855, ../src/style.scss */
 .site-content .wcorg-sponsors img {
   border: 0;
 }
-/* line 858, ../src/style.scss */
+/* line 859, ../src/style.scss */
 .site-content .wcorg-sponsors .wcorg-sponsor {
   padding: 20px 0;
 }
-/* line 861, ../src/style.scss */
+/* line 862, ../src/style.scss */
 .site-content .wcorg-sponsors .wcorg-sponsor h3 {
   display: none;
 }
-/* line 867, ../src/style.scss */
+/* line 868, ../src/style.scss */
 .site-content .wcorg-sponsors .wcorg-sponsor-level-boxes {
   padding-bottom: 20px;
 }
 
-/* line 872, ../src/style.scss */
+/* line 873, ../src/style.scss */
 #tix-attendees a[href*=".png"],
 #tix-attendees a[href*=".jpg"],
 #tix-attendees a[href*=".gif"] {
   display: none;
 }
 
-/* line 877, ../src/style.scss */
+/* line 878, ../src/style.scss */
 #tix-attendees ul.tix-attendee-list {
   margin: 0;
   padding-left: 0;
 }
 
-/* line 883, ../src/style.scss */
+/* line 884, ../src/style.scss */
 .site-content .wcorg-sponsor-description > a:first-of-type {
   display: none;
   visibility: hidden;
 }
-/* line 887, ../src/style.scss */
+/* line 888, ../src/style.scss */
 .site-content .wcorg-sponsor-level-boxes img {
   display: block;
   width: 100%;
 }
-/* line 892, ../src/style.scss */
+/* line 893, ../src/style.scss */
 .site-content .wcorg-sponsor-level-stalls img {
   display: block;
   width: 50%;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 899, ../src/style.scss */
+/* line 900, ../src/style.scss */
 .site-content .wcorg-sponsor-level-dress-circle img {
   width: 40%;
 }
-/* line 904, ../src/style.scss */
+/* line 905, ../src/style.scss */
 .site-content .wcorg-sponsor-level-grand-circle .wcorg-sponsor {
   display: inline-block;
   width: 49%;
 }
-/* line 909, ../src/style.scss */
+/* line 910, ../src/style.scss */
 .site-content .wcorg-sponsor-level-balcony .wcorg-sponsor {
   display: inline-block;
   width: 24%;
