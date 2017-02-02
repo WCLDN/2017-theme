@@ -777,74 +777,83 @@ article img {
   display: none;
 }
 
-/* line 816, ../src/style.scss */
-.wcorg-organizer-description img {
+/* line 818, ../src/style.scss */
+.wcorg-organizer-description img,
+.wcorg-speaker-description img {
   float: right;
   margin: 0 0 20px 20px;
 }
 
-/* line 821, ../src/style.scss */
+/* line 825, ../src/style.scss */
+.wcorg-speaker-description [src*="316c856060"],
+.wcorg-speaker-description [src*="7f0aa0a14a"],
+.wcorg-speaker-description [src*="f8ee12934b"],
+.wcorg-speaker-description [src*="9e44e36ff8"] {
+  display: none;
+}
+
+/* line 832, ../src/style.scss */
 .email-only {
   display: none !important;
 }
 
-/* line 827, ../src/style.scss */
+/* line 838, ../src/style.scss */
 .site-content .wcorg-sponsors img {
   border: 0;
 }
-/* line 831, ../src/style.scss */
+/* line 842, ../src/style.scss */
 .site-content .wcorg-sponsors .wcorg-sponsor {
   padding: 20px 0;
 }
-/* line 834, ../src/style.scss */
+/* line 845, ../src/style.scss */
 .site-content .wcorg-sponsors .wcorg-sponsor h3 {
   display: none;
 }
-/* line 840, ../src/style.scss */
+/* line 851, ../src/style.scss */
 .site-content .wcorg-sponsors .wcorg-sponsor-level-boxes {
   padding-bottom: 20px;
 }
 
-/* line 846, ../src/style.scss */
+/* line 857, ../src/style.scss */
 #tix-attendees a[href*=".png"],
 #tix-attendees a[href*=".jpg"],
 #tix-attendees a[href*=".gif"] {
   display: none;
 }
 
-/* line 851, ../src/style.scss */
+/* line 862, ../src/style.scss */
 #tix-attendees ul.tix-attendee-list {
   margin: 0;
   padding-left: 0;
 }
 
-/* line 857, ../src/style.scss */
+/* line 868, ../src/style.scss */
 .site-content .wcorg-sponsor-description > a:first-of-type {
   display: none;
   visibility: hidden;
 }
-/* line 861, ../src/style.scss */
+/* line 872, ../src/style.scss */
 .site-content .wcorg-sponsor-level-boxes img {
   display: block;
   width: 100%;
 }
-/* line 866, ../src/style.scss */
+/* line 877, ../src/style.scss */
 .site-content .wcorg-sponsor-level-stalls img {
   display: block;
   width: 50%;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 873, ../src/style.scss */
+/* line 884, ../src/style.scss */
 .site-content .wcorg-sponsor-level-dress-circle img {
   width: 40%;
 }
-/* line 878, ../src/style.scss */
+/* line 889, ../src/style.scss */
 .site-content .wcorg-sponsor-level-grand-circle .wcorg-sponsor {
   display: inline-block;
   width: 49%;
 }
-/* line 883, ../src/style.scss */
+/* line 894, ../src/style.scss */
 .site-content .wcorg-sponsor-level-balcony .wcorg-sponsor {
   display: inline-block;
   width: 24%;
