@@ -788,17 +788,16 @@ article img {
 /* line 826, ../src/style.scss */
 .wcorg-speaker-description [src*="316c856060"],
 .wcorg-speaker-description [src*="7f0aa0a14a"],
-.wcorg-speaker-description [src*="f8ee12934b"],
-.wcorg-speaker-description [src*="9e44e36ff8"] {
+.wcorg-speaker-description [src*="f8ee12934b"] {
   display: none;
 }
 
-/* line 833, ../src/style.scss */
+/* line 832, ../src/style.scss */
 .wcpt-schedule td {
   vertical-align: top;
 }
 
-/* line 837, ../src/style.scss */
+/* line 836, ../src/style.scss */
 .wcpt-session-title {
   font-size: 110%;
   font-weight: 600;
@@ -807,74 +806,74 @@ article img {
   display: inline-block;
 }
 
-/* line 845, ../src/style.scss */
+/* line 844, ../src/style.scss */
 .wcpt-session-speakers {
   display: block;
   line-height: 1.4;
 }
 
-/* line 850, ../src/style.scss */
+/* line 849, ../src/style.scss */
 .email-only {
   display: none !important;
 }
 
-/* line 855, ../src/style.scss */
+/* line 854, ../src/style.scss */
 .site-content .wcorg-sponsors img {
   border: 0;
 }
-/* line 859, ../src/style.scss */
+/* line 858, ../src/style.scss */
 .site-content .wcorg-sponsors .wcorg-sponsor {
   padding: 20px 0;
 }
-/* line 862, ../src/style.scss */
+/* line 861, ../src/style.scss */
 .site-content .wcorg-sponsors .wcorg-sponsor h3 {
   display: none;
 }
-/* line 868, ../src/style.scss */
+/* line 867, ../src/style.scss */
 .site-content .wcorg-sponsors .wcorg-sponsor-level-boxes {
   padding-bottom: 20px;
 }
 
-/* line 873, ../src/style.scss */
+/* line 872, ../src/style.scss */
 #tix-attendees a[href*=".png"],
 #tix-attendees a[href*=".jpg"],
 #tix-attendees a[href*=".gif"] {
   display: none;
 }
 
-/* line 878, ../src/style.scss */
+/* line 877, ../src/style.scss */
 #tix-attendees ul.tix-attendee-list {
   margin: 0;
   padding-left: 0;
 }
 
-/* line 884, ../src/style.scss */
+/* line 883, ../src/style.scss */
 .site-content .wcorg-sponsor-description > a:first-of-type {
   display: none;
   visibility: hidden;
 }
-/* line 888, ../src/style.scss */
+/* line 887, ../src/style.scss */
 .site-content .wcorg-sponsor-level-boxes img {
   display: block;
   width: 100%;
 }
-/* line 893, ../src/style.scss */
+/* line 892, ../src/style.scss */
 .site-content .wcorg-sponsor-level-stalls img {
   display: block;
   width: 50%;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 900, ../src/style.scss */
+/* line 899, ../src/style.scss */
 .site-content .wcorg-sponsor-level-dress-circle img {
   width: 40%;
 }
-/* line 905, ../src/style.scss */
+/* line 904, ../src/style.scss */
 .site-content .wcorg-sponsor-level-grand-circle .wcorg-sponsor {
   display: inline-block;
   width: 49%;
 }
-/* line 910, ../src/style.scss */
+/* line 909, ../src/style.scss */
 .site-content .wcorg-sponsor-level-balcony .wcorg-sponsor {
   display: inline-block;
   width: 24%;
