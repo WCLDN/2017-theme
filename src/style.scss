@@ -654,6 +654,40 @@ h6 {
 
 }
 
+// Styling for a button that can be used in the wysiwyg
+.wcldn-button {
+	display: inline-block;
+	padding: 5px 10px;
+	background: $brand-primary;
+	font-weight: 800;
+	border: 1px solid $logo;
+	color: $logo;
+	text-decoration: none;
+
+	&:hover,
+	&:focus,
+	&:active {
+		background: $logo;
+		color: $brand-primary;
+		text-decoration: none;
+	}
+
+}
+
+// Force the font colour inside content areas
+.entry-content a.wcldn-button, .comment-content a.wcldn-button {
+	color: $logo;
+
+	&:hover,
+	&:focus,
+	&:active {
+		color: $brand-primary;
+	}
+
+}
+
+
+
 .nav-menu .sub-menu,
 .nav-menu .children {
 	text-align: left;
