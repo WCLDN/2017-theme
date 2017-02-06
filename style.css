@@ -626,13 +626,39 @@ h6 {
   color: #a61f23;
 }
 
-/* line 657, ../src/style.scss */
+/* line 658, ../src/style.scss */
+.wcldn-button {
+  display: inline-block;
+  padding: 5px 10px;
+  background: #a61f23;
+  font-weight: 800;
+  border: 1px solid #ffcd06;
+  color: #ffcd06;
+  text-decoration: none;
+}
+/* line 667, ../src/style.scss */
+.wcldn-button:hover, .wcldn-button:focus, .wcldn-button:active {
+  background: #ffcd06;
+  color: #a61f23;
+  text-decoration: none;
+}
+
+/* line 678, ../src/style.scss */
+.entry-content a.wcldn-button, .comment-content a.wcldn-button {
+  color: #ffcd06;
+}
+/* line 681, ../src/style.scss */
+.entry-content a.wcldn-button:hover, .entry-content a.wcldn-button:focus, .entry-content a.wcldn-button:active, .comment-content a.wcldn-button:hover, .comment-content a.wcldn-button:focus, .comment-content a.wcldn-button:active {
+  color: #a61f23;
+}
+
+/* line 691, ../src/style.scss */
 .nav-menu .sub-menu,
 .nav-menu .children {
   text-align: left;
 }
 
-/* line 662, ../src/style.scss */
+/* line 696, ../src/style.scss */
 .nav-menu ul a:hover,
 .nav-menu ul ul a:hover,
 .nav-menu ul a:focus,
@@ -640,34 +666,34 @@ h6 {
   background: #a61f23;
 }
 
-/* line 669, ../src/style.scss */
+/* line 703, ../src/style.scss */
 .nav-menu .sub-menu {
   border: 0;
 }
 
-/* line 673, ../src/style.scss */
+/* line 707, ../src/style.scss */
 .toggled-on .nav-menu li > ul {
   border: 0;
   text-align: center;
   margin: 0;
 }
-/* line 678, ../src/style.scss */
+/* line 712, ../src/style.scss */
 .toggled-on .nav-menu li > ul a {
   color: #fff;
 }
 
-/* line 684, ../src/style.scss */
+/* line 718, ../src/style.scss */
 .toggled-on .nav-menu li:hover > a,
 .toggled-on .nav-menu .children a {
   color: #fff;
 }
 
-/* line 689, ../src/style.scss */
+/* line 723, ../src/style.scss */
 .jetpack_subscription_widget form p:last-of-type {
   margin: 0;
 }
 
-/* line 693, ../src/style.scss */
+/* line 727, ../src/style.scss */
 button,
 select,
 input,
@@ -676,13 +702,13 @@ textarea {
   padding: 5px;
 }
 
-/* line 701, ../src/style.scss */
+/* line 735, ../src/style.scss */
 input,
 select,
 textarea {
   color: inherit;
 }
-/* line 706, ../src/style.scss */
+/* line 740, ../src/style.scss */
 input:focus,
 select:focus,
 textarea:focus {
@@ -690,98 +716,98 @@ textarea:focus {
   outline: none;
 }
 
-/* line 713, ../src/style.scss */
+/* line 747, ../src/style.scss */
 .comment-respond {
   background: #fff;
   border-top: 4px double #ffcd06;
 }
 
-/* line 718, ../src/style.scss */
+/* line 752, ../src/style.scss */
 .page-header {
   background-color: #fff;
 }
 
-/* line 724, ../src/style.scss */
+/* line 758, ../src/style.scss */
 .table--striped thead th {
   background-color: #27211f;
   color: #fff;
   padding: 6px 10px 6px 0;
 }
-/* line 731, ../src/style.scss */
+/* line 765, ../src/style.scss */
 .table--striped tbody tr:nth-child(odd) {
   background-color: rgba(255, 206, 1, 0.3);
 }
 
-/* line 738, ../src/style.scss */
+/* line 772, ../src/style.scss */
 .subtitle {
   font-size: 1.8rem;
   font-weight: bold;
   font-style: italic;
 }
 
-/* line 744, ../src/style.scss */
+/* line 778, ../src/style.scss */
 .lead {
   font-size: 1.4rem;
 }
 
-/* line 748, ../src/style.scss */
+/* line 782, ../src/style.scss */
 .highlight {
   font-weight: bold;
 }
 
-/* line 754, ../src/style.scss */
+/* line 788, ../src/style.scss */
 article img {
   border: 5px double #27211f;
 }
 
-/* line 762, ../src/style.scss */
+/* line 796, ../src/style.scss */
 .site-content .contact-form > div {
   padding-bottom: 20px;
 }
-/* line 765, ../src/style.scss */
+/* line 799, ../src/style.scss */
 .site-content .contact-form > div .grunion-radio-label.radio {
   font-weight: normal;
   padding-left: 10px;
 }
 
-/* line 776, ../src/style.scss */
+/* line 810, ../src/style.scss */
 .tix-js th {
   padding: 0 5px;
 }
 @media (min-width: 768px) {
-  /* line 776, ../src/style.scss */
+  /* line 810, ../src/style.scss */
   .tix-js th {
     min-width: 100px;
   }
 }
-/* line 784, ../src/style.scss */
+/* line 818, ../src/style.scss */
 .tix-js th.tix-column-price::before {
   content: "";
   display: none;
 }
-/* line 793, ../src/style.scss */
+/* line 827, ../src/style.scss */
 .tix-js tr .tix-column-price::before {
   content: "£";
 }
-/* line 799, ../src/style.scss */
+/* line 833, ../src/style.scss */
 .tix-js .tix-ticket-title {
   font-family: "Limelight", cursive;
   font-size: 18px;
 }
-/* line 804, ../src/style.scss */
+/* line 838, ../src/style.scss */
 .tix-js .tix-ticket-633 .tix-column-price::before {
   content: "";
   display: none;
 }
 
-/* line 812, ../src/style.scss */
+/* line 846, ../src/style.scss */
 .single-wcb_sponsor .entry-thumbnail img {
   margin: 10px 0;
   border: 0;
   display: none;
 }
 
-/* line 823, ../src/style.scss */
+/* line 857, ../src/style.scss */
 .wcorg-organizer-description img,
 .wcorg-speaker-description img,
 .speaker-avatar img {
@@ -789,19 +815,19 @@ article img {
   margin: 0 0 20px 20px;
 }
 
-/* line 830, ../src/style.scss */
+/* line 864, ../src/style.scss */
 .wcorg-speaker-description [src*="316c856060"],
 .wcorg-speaker-description [src*="7f0aa0a14a"],
 .wcorg-speaker-description [src*="f8ee12934b"] {
   display: none;
 }
 
-/* line 836, ../src/style.scss */
+/* line 870, ../src/style.scss */
 .wcpt-schedule td {
   vertical-align: top;
 }
 
-/* line 840, ../src/style.scss */
+/* line 874, ../src/style.scss */
 .wcpt-session-title {
   font-size: 110%;
   font-weight: 600;
@@ -810,74 +836,74 @@ article img {
   display: inline-block;
 }
 
-/* line 848, ../src/style.scss */
+/* line 882, ../src/style.scss */
 .wcpt-session-speakers {
   display: block;
   line-height: 1.4;
 }
 
-/* line 853, ../src/style.scss */
+/* line 887, ../src/style.scss */
 .email-only {
   display: none !important;
 }
 
-/* line 858, ../src/style.scss */
+/* line 892, ../src/style.scss */
 .site-content .wcorg-sponsors img {
   border: 0;
 }
-/* line 862, ../src/style.scss */
+/* line 896, ../src/style.scss */
 .site-content .wcorg-sponsors .wcorg-sponsor {
   padding: 20px 0;
 }
-/* line 865, ../src/style.scss */
+/* line 899, ../src/style.scss */
 .site-content .wcorg-sponsors .wcorg-sponsor h3 {
   display: none;
 }
-/* line 871, ../src/style.scss */
+/* line 905, ../src/style.scss */
 .site-content .wcorg-sponsors .wcorg-sponsor-level-boxes {
   padding-bottom: 20px;
 }
 
-/* line 876, ../src/style.scss */
+/* line 910, ../src/style.scss */
 #tix-attendees a[href*=".png"],
 #tix-attendees a[href*=".jpg"],
 #tix-attendees a[href*=".gif"] {
   display: none;
 }
 
-/* line 881, ../src/style.scss */
+/* line 915, ../src/style.scss */
 #tix-attendees ul.tix-attendee-list {
   margin: 0;
   padding-left: 0;
 }
 
-/* line 887, ../src/style.scss */
+/* line 921, ../src/style.scss */
 .site-content .wcorg-sponsor-description > a:first-of-type {
   display: none;
   visibility: hidden;
 }
-/* line 891, ../src/style.scss */
+/* line 925, ../src/style.scss */
 .site-content .wcorg-sponsor-level-boxes img {
   display: block;
   width: 100%;
 }
-/* line 896, ../src/style.scss */
+/* line 930, ../src/style.scss */
 .site-content .wcorg-sponsor-level-stalls img {
   display: block;
   width: 50%;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 903, ../src/style.scss */
+/* line 937, ../src/style.scss */
 .site-content .wcorg-sponsor-level-dress-circle img {
   width: 40%;
 }
-/* line 908, ../src/style.scss */
+/* line 942, ../src/style.scss */
 .site-content .wcorg-sponsor-level-grand-circle .wcorg-sponsor {
   display: inline-block;
   width: 49%;
 }
-/* line 913, ../src/style.scss */
+/* line 947, ../src/style.scss */
 .site-content .wcorg-sponsor-level-balcony .wcorg-sponsor {
   display: inline-block;
   width: 24%;
