@@ -460,32 +460,6 @@ h6 {
 		text-align: center;
 		color: $white;
 
-		// Only add the curtains on screens that are large enough
-		@media (min-width: $screen-sm-min) {
-
-			padding: 20px 20px 60px;
-
-			&::before,
-			&::after {
-				content: "";
-				position: absolute;
-				top: 0;
-				display: block;
-				width: 80px;
-				height: 8px;
-				background-size: 100%;
-				background-repeat: repeat-y;
-			}
-
-		}
-
-		.widget-title {
-			position: absolute;
-			top: 25px;
-			left: 0;
-			right: 0;
-		}
-
 		a {
 			color: $white;
 		}
@@ -644,6 +618,7 @@ h6 {
 			&:active {
 				color: $brand-primary;
 			}
+			padding: 15px 20px;
 		}
 		
 		.textwidget {
