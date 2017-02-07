@@ -635,7 +635,7 @@ h6 {
 // Styling for a button that can be used in the wysiwyg
 .wcldn-button {
 	display: inline-block;
-	padding: 5px 10px;
+	padding: 15px;
 	background: $brand-primary;
 	font-family: "Limelight", cursive;
 	font-size: 1.3rem;
@@ -643,9 +643,7 @@ h6 {
 	border: 1px solid $logo;
 	color: $logo;
 	text-decoration: none;
-	padding: 20px 10px;
-	text-align: center;
-	margin-top:10px;
+	margin: 10px auto;
 
 	&:hover,
 	&:focus,
