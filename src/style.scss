@@ -633,7 +633,7 @@ h6 {
 		}
 
 	}
-	&.widget-text {
+	&.widget_text {
 		border: 0;
 		padding: 0;
 		
@@ -661,7 +661,8 @@ h6 {
 	display: inline-block;
 	padding: 5px 10px;
 	background: $brand-primary;
-	font-size: 2rem;
+	font-family: "Limelight", cursive;
+	font-size: 1.3rem;
 	font-weight: 800;
 	border: 1px solid $logo;
 	color: $logo;
