@@ -621,6 +621,15 @@ h6 {
 			}
 			font-size: 2rem;
 			padding: 20px 40px;
+			
+			&.yellow {
+				color: $brand-primary;
+				&:hover,
+				&:focus,
+				&:active {
+					color: $logo;
+				}
+			}
 		}
 		
 		.textwidget {
