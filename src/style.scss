@@ -618,7 +618,8 @@ h6 {
 			&:active {
 				color: $brand-primary;
 			}
-			padding: 15px 20px;
+			font-size: 2rem;
+			padding: 20px 40px;
 		}
 		
 		.textwidget {
@@ -642,6 +643,9 @@ h6 {
 	border: 1px solid $logo;
 	color: $logo;
 	text-decoration: none;
+	padding: 20px 10px;
+	text-align: center;
+	margin-top:10px;
 
 	&:hover,
 	&:focus,
@@ -649,6 +653,20 @@ h6 {
 		background: $logo;
 		color: $brand-primary;
 		text-decoration: none;
+	}
+
+}
+
+.wcldn-button.yellow {
+	background: $logo;
+	border: 1px solid $brand-primary;
+	color: $brand-primary;
+
+	&:hover,
+	&:focus,
+	&:active {
+		background: $brand-primary;
+		color: $logo;
 	}
 
 }
