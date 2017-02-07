@@ -477,18 +477,6 @@ h6 {
 				background-repeat: repeat-y;
 			}
 
-			&::before {
-				left: 0;
-				background-image: url(#{$assets-url}/images/text-widget-top-left-001.png);
-				background-repeat: no-repeat;
-			}
-
-			&::after {
-				right: 0;
-				background-image: url(#{$assets-url}/images/text-widget-top-right-001.png);
-				background-repeat: no-repeat;
-			}
-
 		}
 
 		.widget-title {
@@ -522,17 +510,6 @@ h6 {
 				background-repeat: repeat-y;
 			}
 
-			&::before {
-				left: 0;
-				top: 6px;
-				background-image: url(#{$assets-url}/images/text-widget-left-001.png);
-			}
-
-			&::after {
-				right: 0;
-				top: 6px;
-				background-image: url(#{$assets-url}/images/text-widget-right-001.png);
-			}
 
 		}
 
@@ -656,6 +633,26 @@ h6 {
 		}
 
 	}
+	&.widget-text {
+		border: 0;
+		padding: 0;
+		
+		.wcldn-button {
+			color: $logo;
+			&:hover,
+			&:focus,
+			&:active {
+				color: $brand-primary;
+			}
+		}
+		
+		.textwidget {
+			padding: 0;
+			background: transparent;
+			border: 0;
+		}
+	}
+	
 
 }
 
@@ -664,6 +661,7 @@ h6 {
 	display: inline-block;
 	padding: 5px 10px;
 	background: $brand-primary;
+	font-size: 2rem;
 	font-weight: 800;
 	border: 1px solid $logo;
 	color: $logo;
