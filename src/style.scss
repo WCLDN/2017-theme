@@ -932,6 +932,19 @@ article {
 	padding-left: 0;
 }
 
+#tix-attendees .tix-columns-3 li {
+	width: 100%;
+
+	@media (min-width: $screen-xs-min) {
+		width: 50%;
+	}
+
+	@media (min-width: $screen-sm-min) {
+		width: 33.333%;
+	}
+
+}
+
 .site-content {
 	.wcorg-sponsor-description > a:first-of-type {
 		display: none;
