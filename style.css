@@ -875,71 +875,75 @@ article img {
 .site-content .wcorg-sponsors .wcorg-sponsor-level-boxes {
   padding-bottom: 20px;
 }
+/* line 923, ../src/style.scss */
+.site-content .wcorg-sponsors .wcorg-sponsor-level-boxes img {
+  max-height: none;
+}
 
-/* line 925, ../src/style.scss */
+/* line 929, ../src/style.scss */
 #tix-attendees a[href*=".png"],
 #tix-attendees a[href*=".jpg"],
 #tix-attendees a[href*=".gif"] {
   display: none;
 }
 
-/* line 930, ../src/style.scss */
+/* line 934, ../src/style.scss */
 #tix-attendees ul.tix-attendee-list {
   margin: 0;
   padding-left: 0;
 }
 
-/* line 935, ../src/style.scss */
+/* line 939, ../src/style.scss */
 #tix-attendees .tix-columns-3 li {
   width: 100%;
 }
 @media (min-width: 480px) {
-  /* line 935, ../src/style.scss */
+  /* line 939, ../src/style.scss */
   #tix-attendees .tix-columns-3 li {
     width: 50%;
   }
 }
 @media (min-width: 768px) {
-  /* line 935, ../src/style.scss */
+  /* line 939, ../src/style.scss */
   #tix-attendees .tix-columns-3 li {
     width: 33.333%;
   }
 }
 
-/* line 949, ../src/style.scss */
+/* line 953, ../src/style.scss */
 .site-content .wcorg-sponsor-description > a:first-of-type {
   display: none;
   visibility: hidden;
 }
-/* line 953, ../src/style.scss */
+/* line 957, ../src/style.scss */
 .site-content .wcorg-sponsor-level-boxes img {
   display: block;
   width: 100%;
 }
-/* line 958, ../src/style.scss */
+/* line 962, ../src/style.scss */
 .site-content .wcorg-sponsor-level-stalls img {
   display: block;
   width: 50%;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 965, ../src/style.scss */
+/* line 969, ../src/style.scss */
 .site-content .wcorg-sponsor-level-dress-circle img {
   width: 40%;
 }
-/* line 970, ../src/style.scss */
+/* line 974, ../src/style.scss */
 .site-content .wcorg-sponsor-level-grand-circle .wcorg-sponsor {
   display: inline-block;
   width: 49%;
 }
-/* line 975, ../src/style.scss */
+/* line 979, ../src/style.scss */
 .site-content .wcorg-sponsor-level-balcony .wcorg-sponsor {
   display: inline-block;
   width: 24%;
   padding-right: 6%;
 }
 
-/* line 982, ../src/style.scss */
+/* line 986, ../src/style.scss */
 .wcpt-schedule {
   font-size: 16px;
 }
